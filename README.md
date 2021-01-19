@@ -230,7 +230,7 @@ Robotic and AI software platforms and frameworks:
 - [Marilou](http://www.anykode.com/marilou.php)
 - [Gazebo](http://gazebosim.org/)
 - [OpenAI Gym](https://gym.openai.com/)
-- [Robot Operating System (ROD)](https://www.ros.org/)
+- [Robot Operating System (ROS)](https://www.ros.org/)
 
 **Why MLAdy?**
 
