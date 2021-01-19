@@ -154,10 +154,10 @@ Perception is based mainly on camera input. The pipeline being developed by MLAd
     _As new papers on depth estimation are coming out frequently, MLAdy uses the fastest available pretrained model with a usable error score (preferably with an open license for commercial use). [AdaBins](https://github.com/shariqfarooq123/AdaBins) is currently being tested, with promising results. The final model will likely be custom trained with a heavily reduced resolution, as speed is prioritized. Deducing depth with remembered depth map and other detection techniques will be attempted to speed up perception further. The current processing time without optimizations is 1-2 seconds._
   - Update traversable areas
     - Classify traversable area in image  
-    _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware._
     - Construct virtual 3D map of traversable area with depth (relative to the vehicle)
   - Locate trash
     - Object detection
+    _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware._
     - Extract depth of object
     - Create vector of target location (relative to the vehicle)
 
