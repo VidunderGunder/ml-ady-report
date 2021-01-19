@@ -6,6 +6,11 @@ MLAdy aims to make an approachable way to utilize artificial intelligence (AI) a
 
 ---
 
+![picture 1](images/paintapic.png)  
+
+---
+_Images to paint a picture before going into the about sections below (images provided by [PixaBay](https://pixabay.com/))._
+
 **Motivation**
 
 Most robotics firms develop expensive and custom-made robots entirely from scratch, and as a result adoption of the technology suffers. The main challenge in combining AI and robotics is not the machinery, but the digital brain that operates it. That's why MLAdy exists - to develop a framework that allows for quick, cheap and accessible realization of autonomous robots.
@@ -20,12 +25,11 @@ The environmental challenges of this day and age is as relevant as ever, and gar
 
 ---
 
-
 **Output**
 
 The final product will be an open hub for end-to-end AI and robotics, consisting of code, tools and methods for real-world application. It will be digitally hosted as open source repositories and resources on the web, accompanied by a network of mentors at NMBU's student innovation center Eik Lab.
 
-This hub and associated members will act as a springboard for robot and AI enthusiastic students (and anyone else interested) to create business, educate themselves and do research.
+This hub and associated members will act as a springboard for robot and AI enthusiastic students (and anyone else interested) to create businesses, educate themselves and do research.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -33,7 +37,7 @@ This hub and associated members will act as a springboard for robot and AI enthu
   - [Research and Knowledge](#research-and-knowledge)
     - [Simulation tools](#simulation-tools)
     - [Real world tools](#real-world-tools)
-    - [Vision (used in simulation and the real world)](#vision-used-in-simulation-and-the-real-world)
+    - [Vision (code - used in simulation and the real world)](#vision-code---used-in-simulation-and-the-real-world)
   - [Level of Innovation](#level-of-innovation)
 - [Impacts and Outcomes](#impacts-and-outcomes)
   - [Market Insight and Areas of Application](#market-insight-and-areas-of-application)
@@ -49,6 +53,8 @@ This hub and associated members will act as a springboard for robot and AI enthu
     - [Mentors and key contacts](#mentors-and-key-contacts)
     - [University contributions](#university-contributions)
   - [Budget](#budget)
+    - [1. Proof of concept](#1-proof-of-concept)
+    - [2. MVP (Minimum Viable Product)](#2-mvp-minimum-viable-product)
 
 ## Research and Innovation
 
@@ -75,8 +81,11 @@ The framework will consist of methods and tools facilitating robotic and AI deve
 
 #### Simulation tools
 
+![vision](images/simulation.jpg)
+_Trained RC car agents driving to detected trash in a simulated environment._
+
 - Alternative 1  
-_Based on Unity and their new reinforcement learning features. MLAdy is developing a method to modify parameters and setup for real world use, and how to apply the toolset in conjunction with other platforms and tools to deploy the simulated agents in the real world. The approach is mostly transferrable to other real-time development platforms and game engines (Unreal Engine for example) if needed, but Unity's interface is superior at the time of writing._
+_What is currently in use. Based on Unity and their new reinforcement learning features. MLAdy is developing a method to modify parameters and setup for real world use, and how to apply the toolset in conjunction with other platforms and tools to deploy the simulated agents in the real world. The approach is mostly transferrable to other real-time development platforms and game engines (Unreal Engine for example) if needed, but Unity's interface is superior at the time of writing._
   - Unity (Real-time development platform and game engine)
     - ML Agents (Intuitive tool for reinforcement learning)  
     _Uses PyTorch and ONNX under the hood, which enables wide compatibility. Offers an intuitive simplified introduction to new users, before diving into more advanced AI development._
@@ -95,6 +104,9 @@ _Based on Unity and their new reinforcement learning features. MLAdy is developi
   - Fusion 360 (3D-modelling, free student license)
 
 #### Real world tools
+
+![DonkeyCar](images/donkeycar.jpg)
+_MLAdy's DonkeyCar for proof of concept training and inference in the real world._
 
 Microcontroller unit (brain)
 
@@ -126,19 +138,20 @@ Vehicles
 - RC excavator
   - Any models from [HUINA](https://www.facebook.com/Huinatoys)* or similar
 
-*[HUINA](https://www.facebook.com/Huinatoys) is a budget RC supplier known in online RC-communities for offering solid budget options.
+*[HUINA](https://www.facebook.com/Huinatoys) is a budget RC-supplier known in online RC-communities for offering solid budget options.
 
-#### Vision (used in simulation and the real world)
+#### Vision (code - used in simulation and the real world)
 
-![vision](images/vision.jpg)
+![Vision](images/vision.jpg)
+_Visualization of camera input, trash detection and depth estimation._
 
 Perception is based mainly on camera input. The pipeline being developed by MLAdy is as follows:
 - Automatic calibration of input on startup
 - Perception loop
   - Input array of pixels from camera
-  - Scale as needed
+  - Preprocess image as needed
   - Depth estimation  
-    _Using the fastest available pretrained model with a usable error score. Currently we are testing depth estimation using [AdaBins](https://github.com/shariqfarooq123/AdaBins), with very promising results. The final model will likely be custom trained with a heavily reduced resolution, as speed is prioritized. The current processing time is 1-2 seconds._
+    _As new papers on depth estimation are coming out frequently, MLAdy uses the fastest available pretrained model with a usable error score (preferably with an open license for commercial use). [AdaBins](https://github.com/shariqfarooq123/AdaBins) is currently being tested, with promising results. The final model will likely be custom trained with a heavily reduced resolution, as speed is prioritized. Deducing depth with remembered depth map and other detection techniques will be attempted to speed up perception further. The current processing time without optimizations is 1-2 seconds._
   - Update traversable areas
     - Classify traversable area in image  
     _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware._
@@ -148,7 +161,7 @@ Perception is based mainly on camera input. The pipeline being developed by MLAd
     - Extract depth of object
     - Create vector of target location (relative to the vehicle)
 
-Initially the model's input will be a flattened vector consisting of all gyroscope/accelerometer data, traversable areas and target location. It then outputs how move the vehicle to achieve its current goal.
+Initially the model's input will be a flattened vector consisting of all gyroscope/accelerometer data, traversable areas and target location. It then outputs how to move the vehicle to achieve its current goal.
 
 This is input may be sufficient for the proof of concept stage, as proved in simulation without real life noise.
 
@@ -221,7 +234,7 @@ Robotic and AI software platforms and frameworks:
 
 **Why MLAdy?**
 
-A common factor for all the aforementioned corporations are their custom, expensive and inaccessible solutions. MLAdy wants to open the technology for young and bright minds that are not currently employed somewhere that grants them access to expensive and proprietary solutions aimed at profit.
+A common denominator for the aforementioned corporations are their custom, expensive and inaccessible solutions. MLAdy wants to open the technology for young and bright minds that are not currently employed somewhere that grants them access to expensive and proprietary solutions aimed at profit.
 
 MLAdy fills a gap before implementation, by pushing the profit-seeking aspects to after the prototype stage - and replacing it with a learning based approach.
 
@@ -466,92 +479,45 @@ With this open approach, MLAdy will be carried on by new members should the core
 
 ### Budget
 
-1. Proof of concept  
+#### 1. Proof of concept  
+  
+All components needed can be found at Eik Lab's workshop and borrowed elsewhere.
+
+#### 2. MVP (Minimum Viable Product)  
+
+Some components needed can be found at Eik Lab's workshop and borrowed elsewhere.
+
+The following must be bought:
 
 <table>
   <tr>
     <th>Product</th>
-    <th>Price (NOK, rounded)</th>
-    <th>Link</th>
+    <th>Price (NOK, no VAT, rounded up to nearest 50)</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://www.elefun.no/p/prod.aspx?v=49553">Contruck Wheel Loader</a></td>
+    <td>350</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.elefun.no/p/prod.aspx?v=49552">Contruck Excavator</a></td>
+    <td>350</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.elefun.no/p/prod.aspx?v=42812&fbclid=IwAR04NOApJ50qJLEGSwhzHwDKGs4BU7lwxKjgKhwQA2o652XmzEvi0t7xwWQ">HUINA Wheel Loader with Excavator Arm</a></td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.kjell.com/no/produkter/data/raspberry-pi/raspberry-pi-kameramodul-v2-p88053">Raspberry Pi Camera Module v2</a> x 3</td>
+    <td>350 x 3</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.computersalg.no/i/7015984/nvidia-jetson-nano-2gb-wifi?utm_source=prisjaktNo&utm_medium=prisjaktNoLINK&utm_campaign=prisjaktNo">Jetson Nano</a> x 3</td>
+    <td>900 x 3</td>
+  </tr>
+  <tr>
+    <th>SUM</a></th>
+    <th>4950</th>
   </tr>
 </table>
 
-1. MVP (Minimum Viable Product)  
-
-<table>
-  <tr>
-    <th>Product</th>
-    <th>Price (NOK, rounded)</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-1. Fleet prototype  
-
-<table>
-  <tr>
-    <th>Product</th>
-    <th>Price (NOK, rounded)</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-1. Scale vehicle size  
-
-<table>
-  <tr>
-    <th>Product</th>
-    <th>Price (NOK, rounded)</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-1. Implementation project
-
-<table>
-  <tr>
-    <th>Product</th>
-    <th>Price (NOK, rounded)</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-1. Scale to multiple projects  
-
-<table>
-  <tr>
-    <th>Product</th>
-    <th>Price (NOK, rounded)</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+Budgets for remaining phases will be decided when seeking further funding.
