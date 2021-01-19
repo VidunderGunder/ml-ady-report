@@ -95,25 +95,38 @@ This method enables dynamic discovery of the most suited clientele to further pu
 
 There are multiple big actors working on robotics:
 
-- Boston Dynamics
-- ANYbotics
-- SIASUN
-- Clearpath robotics
-- Fetch robotics
-- Amazon robotics
-- Sarcos
-- Diligent Robotics
+- [Boston Dynamics](https://www.bostondynamics.com/)
+- [ANYbotics](https://www.anybotics.com/)
+- [SIASUN](http://www.siasun.com/index.php?m=content&c=index&a=initsa)
+- [Clearpath Robotics](https://clearpathrobotics.com/)
+- [Fetch Robotics](https://fetchrobotics.com/)
+- [Amazon Robotics](https://www.amazonrobotics.com/)
+- [Sarcos](https://www.sarcos.com/)
+- [Diligent Robotics](https://diligentrobots.com/)
 - [Universal Robots](https://www.universal-robots.com/)
+
+...and many more.
 
 Most if not all have started to adopt modern AI.
 
-NVIDIA is working on an end-to-end software suite for robotics with AI-support, by the name Isaac.
+Robotic and AI software platforms:
 
-The common factor for all the aforementioned corporations are,
+- [PyRobot (Facebook)](https://github.com/facebookresearch/pyrobot)
+- [Isaac (NVIDIA)](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/)
+
+**Why MLAdy?**
+
+A common factor for all the aforementioned corporations are their custom, expensive and inaccessible solutions. MLAdy wants to open the technology for young and bright minds that are not currently employed somewhere that grants them access to expensive and proprietary solutions aimed at profit.
+
+MLAdy fills a gap before implementation, by pushing the profit-seeking aspects to after the prototype stage - and replacing it with a learning based approach.
+
+The ventures that spurs out of MLAdy (see [Realization strategy](#realization-strategy)) will compete with the rest of the marketplace, but will offer a lower barrier to entry for cautious adopters in the marketplace.
+
+MLAdy will not necessarily compete with other methods, software platforms or frameworks, as MLAdy is one abstraction level higher - allowing for usage of other tools. The goal is just to make it as effective as possible to implement AI and robotics. 
 
 ### Realization strategy
 
-Each successful implementation using the framework gives an opportunity to start a venture with the client in question. As each client and student group will have unique preferences regarding a development and implementation pipeline, MLAdy would allow students to be hired directly by the client, do further work freelance or start their own consultation firms. The core team is welcome to do the same.
+Each successful implementation using the framework gives an opportunity to start a venture with the client in question. As each client and student group will have individual preferences regarding a development and implementation pipeline, MLAdy would allow students to be hired directly by the client, do further work freelance or start their own consultation firms. The core team is welcome to do the same.
 
 Making MLAdy a private firm would go against its principles and goals. It is better suited as a hub for democratic robotics and AI development, serving a multitude of ventures, all cooperating if they so wish.
 
@@ -143,11 +156,86 @@ By not commercializing MLAdy directly, new users are free to use educational lic
 
 ## Implementation
 
+Project start: 1. January 2021
 
+The project is divided into ... phases:
+
+1. Proof of concept
+2. MVP (Minimum Viable Product)
+3. Fleet prototype
+4. Scale vehicle size
+5. Implementation project
+6. Scale to multiple projects
+
+The proof of concept is halfway done at the time of writing.
 
 ### Project Plan
 
-
+- [ ] Proof of concept
+  - [x] Simulation
+    - [x] Abstract* vehicle simulation  
+    _By abstract we mean a simpllified generalization with randomized parameters. This will enable the model to understand different vehicle properties and adjust output accordingly._
+    - [x] Abstract environment simulation
+    - [x] Easy-to-use reinforcement learning
+    - [ ] Mental model
+      - [x] Simplified mental model (perfect preprocessed data)
+        - [x] Target position relative to vehicle
+        - [x] Vehicle orientation (relative to gravity)
+        - [ ] Traversable plane detection (ground/walls)
+      - [ ] Complex mental model (same as noisy real world implementation)
+  - [ ] Transfer simulated learning to the real world
+    - [x] Vehicle
+      - [x] RC-car equipped with [NVIDIA Jetson Nano](https://developer.nvidia.com/EMBEDDED/jetson-nano-developer-kit) (based on [DonkeyCar](https://www.donkeycar.com/))
+    - [ ] Complex mental model
+      - [ ] Sensory input
+        - [x] Vision
+          - [x] Object detection (trash)
+          - [x] Depth map
+        - [ ] Orientation
+          - [ ] Gyroscope
+      - [ ] Virtual map
+        - [ ] Target position relative to vehicle
+        - [ ] Vehicle orientation (relative to gravity)
+        - [ ] Traversable plane detection (ground/walls)
+    - [x] Extract learned model for real word application
+  - [ ] Train in the real world
+  - [ ] Successfully detect and drive to trash
+- [ ] MVP
+  - [ ] Add abstract excavator and wheel loader vehicles to simulation
+    - [ ] Create abstract arm
+    - [ ] Add abstract arm to abstract vehicle
+  - [ ] Simulated training
+    - [ ] Detect trash
+    - [ ] Drive to trash
+    - [ ] Pick up trash
+    - [ ] Place trash where told
+  - [ ] Retrofit a microcontroller unit (MCU) and necessary sensors on an excavator and/or wheel loader
+  - [ ] Real world training
+  - [ ] Successfully do steps necessary for removing trash
+    - [ ] Detect trash
+    - [ ] Drive to trash
+    - [ ] Pick up trash
+    - [ ] Place trash where told
+- [ ] Fleet prototype
+  - [ ] Extend sensory inputs
+    - [ ] GPS
+  - [ ] Scale MVP to deploy a fleet of minimum 10 vehicles cooperating
+  - [ ] Charging
+    - [ ] Stations
+    - [ ] Routines
+  - [ ] Autonomous operation with minimal interaction 24/7
+- [ ] Scale vehicle size
+  - [ ] Test framework on a 1/1 scale vehicle (e.g. car, wheel loader, excavator)
+- [ ] Implementation project
+  - [ ] Make deal with a suited candidate for implementation  
+  _Some of MLAdy's core members has already contacted their workplace regarding testing at their factory facilities. The contact person likes the idea and will likely propose an implementation when MLAdy is ready._
+  - [ ] Formulate detailed plan for implementation
+  - [ ] Implement
+- [ ] Scale to multiple projects
+  - [ ] Recruit more members
+  - [ ] Teach new members framework
+  - [ ] Acquire new implementation project
+  - [ ] Guide new members through the process
 
 ### Management, Team and Expertise
 
