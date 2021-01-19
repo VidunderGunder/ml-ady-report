@@ -22,6 +22,8 @@ The environmental challenges of this day and age is as relevant as ever, and gar
 
 The final product will be an open hub for end-to-end AI and robotics, consisting of code, tools and methods for real-world application. It will be digitally hosted as open source repositories and resources on the web, accompanied by a network of mentors at NMBU's student innovation center Eik Lab.
 
+This hub will enable a springboard for robot and AI enthusiastic students (and anyone else interested) to create business, educate themselves and do research. 
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Research and Innovation](#research-and-innovation)
@@ -56,6 +58,8 @@ The core teams prior experience include:
 - Detection of mice species with machine learning
 - Smart water fountains
 - Full stack web development
+
+MLAdy will utilize a wide variety of disciplines to create a 
 
 ### Level of Innovation
 
@@ -109,10 +113,16 @@ There are multiple big actors working on robotics:
 
 Most if not all have started to adopt modern AI.
 
-Robotic and AI software platforms:
+Robotic and AI software platforms and frameworks:
 
 - [PyRobot (Facebook)](https://github.com/facebookresearch/pyrobot)
 - [Isaac (NVIDIA)](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/)
+- [Webots](https://cyberbotics.com/)
+- [Coppelia Robotics](https://www.coppeliarobotics.com/)
+- [Marilou](http://www.anykode.com/marilou.php)
+- [Gazebo](http://gazebosim.org/)
+- [OpenAI Gym](https://gym.openai.com/)
+- [Robot Operating System (ROD)](https://www.ros.org/)
 
 **Why MLAdy?**
 
@@ -122,7 +132,13 @@ MLAdy fills a gap before implementation, by pushing the profit-seeking aspects t
 
 The ventures that spurs out of MLAdy (see [Realization strategy](#realization-strategy)) will compete with the rest of the marketplace, but will offer a lower barrier to entry for cautious adopters in the marketplace.
 
-MLAdy will not necessarily compete with other methods, software platforms or frameworks, as MLAdy is one abstraction level higher - allowing for usage of other tools. The goal is just to make it as effective as possible to implement AI and robotics. 
+MLAdy will not necessarily compete with other methods, software platforms or frameworks, as MLAdy is one abstraction level higher - allowing for usage of other tools. The goal is just to make it as effective as possible to implement AI and robotics.
+
+The closest alternative to what MLAdy will offer is [ROS](https://www.ros.org/), a widely used flexible framework for making software relating to robots.
+
+MLAdy will (at least initially) offer a more opinionated approach, focusing on general application, intuition and easy-of-use, which the core team found lacking in ROS. At the same time the project will be driven by members actively recruiting and guiding participants while pushing for real world implementations with economic value.
+
+After the initial stages, MLAdy may be a great additional resource for ROS.
 
 ### Realization strategy
 
