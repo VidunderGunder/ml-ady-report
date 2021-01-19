@@ -1,33 +1,39 @@
 # MLAdy - Autonomous Robots for Everyone <!-- omit in toc -->
 
-Safe, budget-oriented and scalable re-purposing of consumer grade electronics for public goods and industrial applications with reinforcement learning.
+Safe, budget-oriented and scalable re-purposing of tried-and-true vehicles for public and industrial applications with reinforcement learning. Or simply put: Use what we have to do more.
 
-...or in plain English for non-robots:
-
----
-
-**Make toys do work.**
+MLAdy aims to make an approachable way to utilize artificial intelligence (AI) and robotics for the betterment of humanity, by using cutting edge technology and a no frills attitude.
 
 ---
 
-MLAdy aims to make an approachable way to utilize artificial intelligence (AI) for the betterment of humanity, by using cutting edge technology and a no frills attitude.
+**Motivation**
 
 Most robotics firms develop expensive and custom-made robots entirely from scratch, and as a result adoption of the technology suffers. The main challenge in combining AI and robotics is not the machinery, but the digital brain that operates it. That's why MLAdy exists - to develop a framework that allows for quick, cheap and accessible realization of autonomous robots.
 
-Downscaled RC farm and construction vehicles are made to handle any task on any budget. They are mass produced and downscaled version of established industrial solutions, so development is cut to a minimum. As a bonus, they are lot safer to develop and deploy than heavy machinery. There sadly is no teeny-tiny workforce to accompany them - MLAdy solves that problem with modern artificial intelligence.
+Take downscaled RC and real-size farm and construction vehicles for example; this range of vehicles are made to handle any task on any budget, while being mass produced and widely available industrial solutions tested in the real world for a long time. By using this hardware over from-scratch-solutions, cuts complex and time-consuming development to a minimum.
+
+As a bonus, if the task does not require full size vehicles, RC variants can be used. They are lot safer to develop and deploy than heavy machinery. The other way around? No problem - a generalized abstract reinforcement learning approach will work just as well with custom hardware for complex and specific tasks. This way, MLAdy proposes a way to scale complexity.
 
 MLAdy's long-term vision is to be an AI- and robotics foundation intended for a wide variety of use-cases. To realize this, a clear and concise goal is needed. Optimally something that attracts developers, students and investors to the project.
 
-The environmental challenges of this day and age is as relevant as ever, and garbage is piling up. Hence, the initial prototype will be the deployment of a fleet of budget RC vehicles, to collect garbage at the Norwegian University of Life Sciences (NMBU) and surrounding areas.
+The environmental challenges of this day and age is as relevant as ever, and garbage is piling up. Hence, the first half of the project will consist of a deployment of a fleet of budget RC vehicles, to collect garbage at the Norwegian University of Life Sciences (NMBU) and surrounding areas. The second part will be commercial implementation of the methods together with industrial partners.
+
+---
+
+
+**Output**
 
 The final product will be an open hub for end-to-end AI and robotics, consisting of code, tools and methods for real-world application. It will be digitally hosted as open source repositories and resources on the web, accompanied by a network of mentors at NMBU's student innovation center Eik Lab.
 
-This hub will enable a springboard for robot and AI enthusiastic students (and anyone else interested) to create business, educate themselves and do research. 
+This hub and associated members will act as a springboard for robot and AI enthusiastic students (and anyone else interested) to create business, educate themselves and do research.
 
 ## Table of Contents <!-- omit in toc -->
 
 - [Research and Innovation](#research-and-innovation)
-  - [Research and/or Knowledge](#research-andor-knowledge)
+  - [Research and Knowledge](#research-and-knowledge)
+    - [Simulation tools](#simulation-tools)
+    - [Real world tools](#real-world-tools)
+    - [Vision (used in simulation and the real world)](#vision-used-in-simulation-and-the-real-world)
   - [Level of Innovation](#level-of-innovation)
 - [Impacts and Outcomes](#impacts-and-outcomes)
   - [Market Insight and Areas of Application](#market-insight-and-areas-of-application)
@@ -36,30 +42,117 @@ This hub will enable a springboard for robot and AI enthusiastic students (and a
   - [Conditions and Rights](#conditions-and-rights)
   - [Benefit to Society and Sustainability](#benefit-to-society-and-sustainability)
 - [Implementation](#implementation)
-  - [Project Plan](#project-plan)
+  - [Project Checklist](#project-checklist)
+    - [Possible side projects](#possible-side-projects)
   - [Management, Team and Expertise](#management-team-and-expertise)
     - [Team](#team)
-    - [Mentors](#mentors)
-    - [Contribution from University](#contribution-from-university)
+    - [Mentors and key contacts](#mentors-and-key-contacts)
+    - [University contributions](#university-contributions)
   - [Budget](#budget)
 
 ## Research and Innovation
 
 
 
-### Research and/or Knowledge
+### Research and Knowledge
 
 The core team is made up of engineering students and tech enthusiasts at NMBU, engaged in disciplines ranging from mechanical and electrical engineering to application development and data science. All members are active and pioneering participants of a student organization by the name Eik Lab, who recently became an official part of NMBU. It is the University's hub of innovation, with a long track-record of pioneering and bleeding edge technology projects.
 
-The core teams prior experience include:
+The core teams prior experience includes:
 
 - Digitization of industrial documentation
 - Research equipment for gene manipulation (CRISPR)
-- Detection of mice species with machine learning
-- Smart water fountains
+- Detection of mice species using machine learning
+- Smart and cloud-connected water fountains
 - Full stack web development
+- 3D-modelling, animation and rendering
 
-MLAdy will utilize a wide variety of disciplines to create a 
+MLAdy will utilize a wide variety of disciplines to create a generally applicable robotics and AI solution to handle almost any task, with rapid prototyping and solid scaling.
+
+The team has experience implementing scalable system architecture, prototyping quickly and working with start-ups, giving a solid foundation to create an intuitive and easy-to-use end product.
+
+The framework will consist of methods and tools facilitating robotic and AI development meant for real application on a budget. The tools themselves may change at any time, but a rough overview of what is applied at the time of writing, is as follows (alternatives sorted by most to least fitting):
+
+#### Simulation tools
+
+- Alternative 1  
+_Based on Unity and their new reinforcement learning features. MLAdy is developing a method to modify parameters and setup for real world use, and how to apply the toolset in conjunction with other platforms and tools to deploy the simulated agents in the real world. The approach is mostly transferrable to other real-time development platforms and game engines (Unreal Engine for example) if needed, but Unity's interface is superior at the time of writing._
+  - Unity (Real-time development platform and game engine)
+    - ML Agents (Intuitive tool for reinforcement learning)  
+    _Uses PyTorch and ONNX under the hood, which enables wide compatibility. Offers an intuitive simplified introduction to new users, before diving into more advanced AI development._
+  - Blender (3D-modelling, free open-source)
+  - Fusion 360 (3D-modelling, free student license)
+- Alternative 2  
+  _Based on NVIDIA's robotics and AI platform. The installation and usage is complex and non-intuitive for users new to the field. It may be the most promising tool for precise and advanced robotics development, but may be overkill for an abstraction approach like the one proposed by MLAdy._
+  - NVIDIA Isaac (AI and robotics development platform)
+  - Blender (3D-modelling, free open-source)
+  - Fusion 360 (3D-modelling, free student license)
+- Alternative 3  
+  _Based on Unreal Engine. Equivalent to Unity, but requires more external tools to do the same job as Unity offers natively. Possible alternative if Unreal Engines AI-tools should improve or Unity no longer is a valid option. As it stands, Unity is a clear winner._
+  - Unreal Engine (Real-time development platform and game engine)
+  - Reinforcement learning implemented by hand 
+  - Blender (3D-modelling, free open-source)
+  - Fusion 360 (3D-modelling, free student license)
+
+#### Real world tools
+
+Microcontroller unit (brain)
+
+- Alternative 1  
+  _NVIDIA hardware. NVIDIA is the leading supplier of computing units for AI, but also close to a monopoly. Prices are fair as of now, but it may be something to keep in mind as to not get locked in by the platform. Below are the units offered by NVIDIA relevant to this project:_
+  - [Jetson Nano 2gb](https://developer.nvidia.com/EMBEDDED/jetson-nano-2gb-developer-kit)
+  - [Jetson Nano](https://developer.nvidia.com/EMBEDDED/jetson-nano-developer-kit)
+- Alternative 2  
+  _Raspberry Pi hardware. Raspberry Pi is a low cost and easy-to-use alternative. Raspberry Pi was an early player in the DIY community, and as a result has more general resources available. It is overall weaker than NVIDIA hardware, and lacks CUDA support, so it is only a viable option if the computing needs are small and necessary tools are not dependent on CUDA (which open AI-related tools seldom are)._
+  - [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+
+Sensors
+
+- [MIPI-CSI](https://mipi.org/specifications/csi-2) camera
+  - [Raspberry Pi Camera Module v2](https://www.raspberrypi.org/products/camera-module-v2/)  
+  _Widely used camera in DIY-projects, so extensive information and guides are available, but any MIPI-CSI-camera will do._
+- Gyroscope/accelerometer
+  _Both sensors are potential candidates, and should be tested. Easy of installation and use should be prioritized on final selection._
+  - [BMI088](https://www.seeedstudio.com/Grove-6-Axis-Accelerometer-Gyroscope-BMI088.html) - [Code](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md)
+  - [LSM9DS1](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout) - [Code](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout)
+
+Vehicles
+
+- RC car
+  - [DonkeyCar](https://www.donkeycar.com/)  
+  _DonkeyCar is an open source autonomous RC car project with great resources to get up and running with a MCU-controlled vehicle. MLAdy has one up and running already, and real world tests for transferring simulated training will be performed in the coming weeks._
+- RC wheel loader
+  - Any models from [HUINA](https://www.facebook.com/Huinatoys)* or similar
+- RC excavator
+  - Any models from [HUINA](https://www.facebook.com/Huinatoys)* or similar
+
+*[HUINA](https://www.facebook.com/Huinatoys) is a budget RC supplier known in online RC-communities for offering solid budget options.
+
+#### Vision (used in simulation and the real world)
+
+![vision](images/vision.jpg)
+
+Perception is based mainly on camera input. The pipeline being developed by MLAdy is as follows:
+- Automatic calibration of input on startup
+- Perception loop
+  - Input array of pixels from camera
+  - Scale as needed
+  - Depth estimation  
+    _Using the fastest available pretrained model with a usable error score. Currently we are testing depth estimation using [AdaBins](https://github.com/shariqfarooq123/AdaBins), with very promising results. The final model will likely be custom trained with a heavily reduced resolution, as speed is prioritized. The current processing time is 1-2 seconds._
+  - Update traversable areas
+    - Classify traversable area in image  
+    _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware._
+    - Construct virtual 3D map of traversable area with depth (relative to the vehicle)
+  - Locate trash
+    - Object detection
+    - Extract depth of object
+    - Create vector of target location (relative to the vehicle)
+
+Initially the model's input will be a flattened vector consisting of all gyroscope/accelerometer data, traversable areas and target location. It then outputs how move the vehicle to achieve its current goal.
+
+This is input may be sufficient for the proof of concept stage, as proved in simulation without real life noise.
+
+By limiting vision sensors to camera only, calibration is streamlined and installation complexity is reduced. Position, orientation and amount of cameras are yet to be decided.
 
 ### Level of Innovation
 
@@ -67,7 +160,7 @@ The industry seems stuck on creating expensive and tailored solutions for giant 
 
 An open platform will reduce friction associated with development, as all licenses will be free to use until it is applied in a commercial setting, and allow for rapid prototyping for its users. An open platform will give MLAdy an edge over closed source competition by gaining valuable feedback and improvements from the community, which is especially valuable for data-hungry reinforcement learning, while boosting innovation and adoption of autonomous robots by making it budget friendly and easy to use.
 
-As commercial application of the technology is virtually limitless, the threat of competition is limited, and MLAdy will most likely reap more benefits of an open community.
+As commercial application of the technology is virtually limitless, the threat of competition is limited, and MLAdy and its users will most likely reap more benefits of an open community.
 
 In the long run, applications can include (but are not limited to):
 
@@ -78,6 +171,8 @@ In the long run, applications can include (but are not limited to):
 - Search and resources
 - Industrial production
 - Education
+- Maintenance
+- Cleaning
 
 Deployment will be faster than other methods, as the core idea is retrofitting tried-and-true vehicles and machinery already in use, bypassing a large amount of development needed for custom-tailored hardware solutions.
 
@@ -130,21 +225,21 @@ A common factor for all the aforementioned corporations are their custom, expens
 
 MLAdy fills a gap before implementation, by pushing the profit-seeking aspects to after the prototype stage - and replacing it with a learning based approach.
 
-The ventures that spurs out of MLAdy (see [Realization strategy](#realization-strategy)) will compete with the rest of the marketplace, but will offer a lower barrier to entry for cautious adopters in the marketplace.
+The ventures that spurs out of MLAdy (see [realization strategy](#realization-strategy)) will compete with the rest of the marketplace, but will offer a lower barrier to entry for cautious adopters in the marketplace.
 
-MLAdy will not necessarily compete with other methods, software platforms or frameworks, as MLAdy is one abstraction level higher - allowing for usage of other tools. The goal is just to make it as effective as possible to implement AI and robotics.
+MLAdy will not necessarily compete with other methods, software platforms or frameworks, as it is most often one abstraction level higher - allowing for usage of other tools. The project's goal is primarily to make it as effective as possible to implement AI and robotics.
 
-The closest alternative to what MLAdy will offer is [ROS](https://www.ros.org/), a widely used flexible framework for making software relating to robots.
+The closest alternative available is [ROS](https://www.ros.org/), a widely used framework for making software relating to robots.
 
-MLAdy will (at least initially) offer a more opinionated approach, focusing on general application, intuition and easy-of-use, which the core team found lacking in ROS. At the same time the project will be driven by members actively recruiting and guiding participants while pushing for real world implementations with economic value.
+MLAdy will (at least initially) offer a more opinionated approach, focusing on general application, intuition and easy-of-use, which the core team found somewhat lacking in ROS. The project will be driven by members actively recruiting and guiding participants, while pushing for real world implementations with economic value.
 
-After the initial stages, MLAdy may be a great additional resource for ROS.
+After the initial stages, MLAdy might even be a great addition to ROS, especially for users new to the field.
 
 ### Realization strategy
 
-Each successful implementation using the framework gives an opportunity to start a venture with the client in question. As each client and student group will have individual preferences regarding a development and implementation pipeline, MLAdy would allow students to be hired directly by the client, do further work freelance or start their own consultation firms. The core team is welcome to do the same.
+Each successful implementation using the framework gives an opportunity to start a venture with the client in question. As each client and student group will have individual preferences regarding development and implementation pipelines, MLAdy would allow students to be hired directly by the client, do further work freelance or start their own business. The core team is welcome to do the same.
 
-Making MLAdy a private firm would go against its principles and goals. It is better suited as a hub for democratic robotics and AI development, serving a multitude of ventures, all cooperating if they so wish.
+Making MLAdy a private firm would go against its principles and goals. It is better suited as a hub for accessible robotics and AI development, serving a multitude of ventures, all cooperating if they so wish.
 
 ### Conditions and Rights
 
@@ -174,30 +269,49 @@ By not commercializing MLAdy directly, new users are free to use educational lic
 
 Project start: 1. January 2021
 
-The project is divided into ... phases:
+The project is divided into six phases (see the [project plan](#project-plan) for more detailed milestones):
 
-1. Proof of concept
-2. MVP (Minimum Viable Product)
-3. Fleet prototype
-4. Scale vehicle size
-5. Implementation project
-6. Scale to multiple projects
+1. Proof of concept  
+2021 Q1  
+Goal: Prove that real world application can be achieved with abstracted simulated training
 
-The proof of concept is halfway done at the time of writing.
+1. MVP (Minimum Viable Product)  
+2021 Q1-Q2  
+Goal: Extend features to perform a complete task (trash removal)
 
-### Project Plan
+1. Fleet prototype  
+2021 Q2-Q3  
+Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal interaction
+
+1. Scale vehicle size  
+2021 Q4  
+Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
+
+1. Implementation project  
+2022 Q1-Q3  
+Goal: Successfully apply framework in a useful real life application
+
+1. Scale to multiple projects  
+2022 Q2-Q3  
+Goal: Make framework generally applicable and accessible
+
+All phases will benefit greatly from funding. The most critical parts are the beginning of phase 3 and out, where a multitude of vehicles and equipment is needed.
+
+The proof of concept is already halfway done at the time of writing.
+
+### Project Checklist
 
 - [ ] Proof of concept
   - [x] Simulation
     - [x] Abstract* vehicle simulation  
-    _By abstract we mean a simpllified generalization with randomized parameters. This will enable the model to understand different vehicle properties and adjust output accordingly._
+    _By abstract we mean a simplified generalization with randomized parameters. This will enable the model to understand different vehicle properties and adjust output accordingly._
     - [x] Abstract environment simulation
     - [x] Easy-to-use reinforcement learning
     - [ ] Mental model
       - [x] Simplified mental model (perfect preprocessed data)
         - [x] Target position relative to vehicle
         - [x] Vehicle orientation (relative to gravity)
-        - [ ] Traversable plane detection (ground/walls)
+        - [ ] Traversable area detection
       - [ ] Complex mental model (same as noisy real world implementation)
   - [ ] Transfer simulated learning to the real world
     - [x] Vehicle
@@ -212,7 +326,7 @@ The proof of concept is halfway done at the time of writing.
       - [ ] Virtual map
         - [ ] Target position relative to vehicle
         - [ ] Vehicle orientation (relative to gravity)
-        - [ ] Traversable plane detection (ground/walls)
+        - [ ] Traversable area detection
     - [x] Extract learned model for real word application
   - [ ] Train in the real world
   - [ ] Successfully detect and drive to trash
@@ -225,7 +339,7 @@ The proof of concept is halfway done at the time of writing.
     - [ ] Drive to trash
     - [ ] Pick up trash
     - [ ] Place trash where told
-  - [ ] Retrofit a microcontroller unit (MCU) and necessary sensors on an excavator and/or wheel loader
+  - [ ] Retrofit a microcontroller unit (MCU) and necessary sensors on a radio controlled excavator and/or wheel loader
   - [ ] Real world training
   - [ ] Successfully do steps necessary for removing trash
     - [ ] Detect trash
@@ -241,7 +355,7 @@ The proof of concept is halfway done at the time of writing.
     - [ ] Routines
   - [ ] Autonomous operation with minimal interaction 24/7
 - [ ] Scale vehicle size
-  - [ ] Test framework on a 1/1 scale vehicle (e.g. car, wheel loader, excavator)
+  - [ ] Successfully use framework on a 1/1 scale vehicle (e.g. forklift, car, wheel loader, excavator)
 - [ ] Implementation project
   - [ ] Make deal with a suited candidate for implementation  
   _Some of MLAdy's core members has already contacted their workplace regarding testing at their factory facilities. The contact person likes the idea and will likely propose an implementation when MLAdy is ready._
@@ -251,22 +365,193 @@ The proof of concept is halfway done at the time of writing.
   - [ ] Recruit more members
   - [ ] Teach new members framework
   - [ ] Acquire new implementation project
-  - [ ] Guide new members through the process
+  - [ ] Guide new members through the initial implementation process
+
+#### Possible side projects
+
+Side projects can be assigned new members as test cases before a commercial application. This will help map out new potential use-cases and provide a wide variety of scenarios to make the framework as general and robust as possible. A successful side project will serve as a solid reference when finding new clients. These are initially meant to be at a proof of concept level, but can be scaled if deemed fit.
+
+- [ ] Snow removal
+- [ ] Agriculture
+- [ ] Construction
+- [ ] Demolition
 
 ### Management, Team and Expertise
 
-
+The team driving MLAdy consists of engineering students at NMBU, who are all on their second to final year of their master degrees.
 
 #### Team
 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Full time equivalent (Project plan)</th>
+  </tr>
+  <tr>
+    <td>Kristian Gunder Kramås</td>
+    <td>Technical lead</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Anders Mathiesen</td>
+    <td>Developer (general)</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Jan Tore Andersen</td>
+    <td>Developer (3D-modelling mainly)</td>
+    <td>50%</td>
+  </tr>
+</table>
 
+The table shows core members of MLAdy only, but MLAdy allows everyone to participate and has already received external contributions.
 
-#### Mentors
+Notable mentions so far includes:
 
+- Uzair Aftab
+  - Performance optimizations
+- Peter Sundell
+  - Ideas for environment recreation
+- Simen Sjølie
+  - Electrical guidance
 
+With this open approach, MLAdy will be carried on by new members should the core team choose to leave to pursue something else (a possibility considering the core team will have completed their degrees by the end of 2022 Q2).
 
-#### Contribution from University
+#### Mentors and key contacts
 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Contribution</th>
+    <th>Workplace/Institution</th>
+  </tr>
+  <tr>
+    <td>Simen Hesleskaug</td>
+    <td>Brainstorming and general project guidance</td>
+    <td>NMBU</td>
+  </tr>
+  <tr>
+    <td>Kristian Omberg</td>
+    <td>Network</td>
+    <td>NMBU</td>
+  </tr>
+  <tr>
+    <td>Eirik Størdal</td>
+    <td>Industrial production contact</td>
+    <td>Trelleborg Offshore Norway</td>
+  </tr>
+</table>
 
+#### University contributions
+
+<table>
+  <tr>
+    <th>Contribution</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Office space</td>
+    <td>The core team has free access to work at Eik Lab's workshop at NMBU</td>
+  </tr>
+  <tr>
+    <td>Hardware</td>
+    <td>Eik Lab has an inventory of tools and components suited for mockups and prototypes</td>
+  </tr>
+  <tr>
+    <td>Guidance</td>
+    <td>NMBU has in-house experts on machine learning, artificial intelligence and data science, who will gladly offer guidance to students doing relevant projects</td>
+  </tr>
+</table>
 
 ### Budget
+
+1. Proof of concept  
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price (NOK, rounded)</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+1. MVP (Minimum Viable Product)  
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price (NOK, rounded)</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+1. Fleet prototype  
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price (NOK, rounded)</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+1. Scale vehicle size  
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price (NOK, rounded)</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+1. Implementation project
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price (NOK, rounded)</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+1. Scale to multiple projects  
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price (NOK, rounded)</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
