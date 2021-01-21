@@ -175,13 +175,13 @@ An open platform will reduce friction associated with development, as all licens
 
 As commercial application of the technology is virtually limitless, the threat of competition is limited, and MLAdy and its users will most likely reap more benefits of an open community.
 
-In the long run, applications can include (but are not limited to):
+In the long run, applications may include (but are not limited to):
 
 - Construction
 - Storage
 - Farming
 - Logistics
-- Search and resources
+- Search and rescue
 - Industrial production
 - Education
 - Maintenance
