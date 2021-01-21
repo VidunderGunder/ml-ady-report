@@ -1,12 +1,15 @@
 # MLAdy - Retrofitting Autonomy <!-- omit in toc -->
 
-## Executive summary
+Robotics and AI offers radical improvements in productivity, expenditure and safety, but the market is slow to adopt new technology. Initial investments for early adopters are expensive and high-risk. 
 
-MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and machinery in public and industrial applications, using simulation and a retrofitting approach with scalable complexity, scope and size.
+MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and machinery in public and industrial applications, using a simulation and retrofitting approach with scalable complexity, scope and size.
+
+Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
+
+The pipeline to a market ready implementation is defined, and is projected to be done before the end of 2022 Q2.
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Executive summary](#executive-summary)
 - [Abbreviations](#abbreviations)
 - [Background](#background)
   - [Benefit to Society and Sustainability](#benefit-to-society-and-sustainability)
@@ -591,11 +594,11 @@ Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal in
 Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
 
 1. Implementation project  
-2022 Q1-Q3  
+2022 Q1-Q2  
 Goal: Successfully apply framework in a useful real life application
 
 1. Reflection and next-steps  
-2022 Q3  
+2022 Q2  
 Goal: Document key findings throughout the project and propose possible next-steps
 
 All phases will benefit greatly from funding, as a multitude of vehicles and equipment is needed.
