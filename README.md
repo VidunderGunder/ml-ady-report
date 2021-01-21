@@ -16,12 +16,14 @@ MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and m
 - [Project Implementation](#project-implementation)
   - [Team](#team)
   - [Major Milestones](#major-milestones)
-  - [Project Checklist](#project-checklist)
 - [Theory and Key Concepts](#theory-and-key-concepts)
   - [Artificial Intelligence](#artificial-intelligence)
-  - [Neural network](#neural-network)
-  - [Machine learning](#machine-learning)
+  - [Neural Network](#neural-network)
+  - [Machine Learning](#machine-learning)
   - [Classification](#classification)
+  - [Training (Machine Learning)](#training-machine-learning)
+  - [Inference (Machine Learning)](#inference-machine-learning)
+  - [Agent (Intelligent Agent - Machine Learning)](#agent-intelligent-agent---machine-learning)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Model (Machine Learning)](#model-machine-learning)
   - [Transfer Learning](#transfer-learning)
@@ -38,16 +40,20 @@ MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and m
   - [Up-to-date papers and code](#up-to-date-papers-and-code)
   - [Competition and similar offerings](#competition-and-similar-offerings)
     - [MLAdy's Edge](#mladys-edge)
-    - [Dangers](#dangers)
+    - [Threats](#threats)
   - [Simulation tools](#simulation-tools)
   - [Real world tools](#real-world-tools)
     - [Vision (code - used in simulation and the real world)](#vision-code---used-in-simulation-and-the-real-world)
-- [Budget](#budget)
+- [Method - Proof of Concept (Phase 2)](#method---proof-of-concept-phase-2)
+  - [Evaluation and results](#evaluation-and-results)
+- [Budget (Phase 1-2)](#budget-phase-1-2)
   - [1. Gauge feasibility](#1-gauge-feasibility)
   - [2. Proof of concept](#2-proof-of-concept)
-  - [3. MVP](#3-mvp)
-    - [4-7. Remaining phases](#4-7-remaining-phases)
 - [Conclusion and Recommendations](#conclusion-and-recommendations)
+  - [Next steps](#next-steps)
+    - [Checklist](#checklist)
+    - [Budget (Phase 3)](#budget-phase-3)
+    - [Budget (Phase 4-7)](#budget-phase-4-7)
 
 ## Abbreviations
 
@@ -64,9 +70,9 @@ The idea for MLAdy was born out of a discussion regarding automation of existing
 
 Lacking in available technology and competence, the project was put on hold, but recent advancements in reinforcement learning and computer vision has made the challenge surmountable for a small engineering team. These new-found tools and methods enables the creation of a generalized framework for quick robotics and AI prototyping, enabling implementation in a wide variety of areas.
 
-Most robotics firms develop expensive and custom-made robots entirely from scratch, and as a result adoption of the technology suffers. The main challenge in combining AI and robotics is often not the hardware, but the digital brain that operates it. Most tasks already have suitable machinery, all the they need is just the autonomy. That's why MLAdy exists - to develop a framework that allows for quick, cheap and accessible realization of autonomous robots.
+Most robotics firms develop expensive and custom-made robots entirely from scratch, and as a result adoption of the technology suffers. The main challenge in combining AI and robotics is often not the hardware, but the digital brain that operates it. Most tasks already have suitable machinery, all the they need is the autonomy. That's why MLAdy exists - to offer a quick, cheap and accessible way to start using AI and robotics for safer and more effective operation.
 
-Take farm and construction vehicles for example; this range of vehicles are made to handle any task on any budget, while being mass produced and widely available industrial solutions tested in the real world for a long time. By using this hardware over from-scratch-solutions, complex and time-consuming development is cut to a minimum.
+Take farm and construction vehicles for example; they are mass produced and widely available industrial solutions tested in the real world for a long time. By using this hardware over from-scratch-solutions, complex and time-consuming development is cut to a minimum.
 
 As a bonus, if the task does not require full size vehicles, scaled down RC variants can be used. They are lot safer to develop and deploy than heavy machinery. The other way around? Not a problem - a generalized reinforcement learning approach will work just as well with custom hardware facing highly complex tasks. This way, MLAdy proposes a way to scale complexity on demand.
 
@@ -148,13 +154,13 @@ In order to develop such a framework, the following objectives and activities mu
 
 As possible applications of the framework can vary enormously, a clear and concise goal is needed to formulate the framework effectively. This should optimally be something that attracts developers, students and investors to the project, as it will help speed up the process further and increase overall chances of success.
 
-The environmental challenges of this day and age is as relevant as ever, and garbage is piling up. Hence, MLAdy has decided that the first half of the project will consist of a deployment of a fleet of budget RC vehicles to collect garbage at the Norwegian University of Life Sciences (NMBU) and surrounding areas.
+The environmental challenges of this day and age is as relevant as ever, and garbage is piling up. Hence, MLAdy has decided that the first part of the project will consist of a deployment of a fleet of budget RC vehicles to collect garbage at the Norwegian University of Life Sciences (NMBU) and surrounding areas.
 
-Given that an implementation of the framework together with an industrial partner follows, new limitations will be introduces organically based on the automation scope.
+Further limiting this, a proof of concept is proposed. This is to quickly test if the technology is ready and the approach is achievable. If this is a success, the project may be continued on a proposed trajectory (see [next-steps](#next-steps)).
 
 ## Project Implementation
 
-The team driving MLAdy consists of engineering students at NMBU, who are all on their second to final year of their master degrees.
+The team driving MLAdy consists of engineering students at NMBU, who are all on their second to final year of their master's degree.
 
 ### Team
 
@@ -190,117 +196,29 @@ The table shows core members of MLAdy only, but MLAdy welcomes contributions fro
 - Simen Sjølie
   - Electrical guidance
 
-
-
 ### Major Milestones
 
 Project start: 1. January 2021
 
-Based on stated goal and objectives, the project is divided into seven phases (see the [project checklist](#project-checklist) for more detailed milestones). Development, experimentation and evaluation is done for each prototype step (2-6), to promote pivoting as necessary. The most critical experiment will be an implementation with an industrial partner.
+Based on stated goal and objectives, the project is divided into two phases (see [next-steps](#next-steps) for further development and more phases).
 
-For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used up until phase 5.
+For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used for proof of concept.
 
 1. Gauge feasibility  
 2021 Q1  
 Goal: Create overview of existing technology and competition 
 
+   - [x] Existing technology
+   - [x] Competition
+
 1. Proof of concept  
 2021 Q1  
 Goal: Prove that real world application can be achieved with abstracted simulated training
 
-1. MVP (Minimum Viable Product)  
-2021 Q1-Q2  
-Goal: Extend features to perform a complete task (trash removal)
+   - [ ] Simulation
+   - [ ] Transfer to reality and successfully detect and drive to target
 
-1. Fleet prototype  
-2021 Q2-Q3  
-Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal interaction
-
-1. Scale vehicle size  
-2021 Q4  
-Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
-
-1. Implementation project  
-2022 Q1-Q3  
-Goal: Successfully apply framework in a useful real life application
-
-1. Reflection and next-steps  
-2022 Q3  
-Goal: Document key findings throughout the project and propose possible next-steps
-
-All phases will benefit greatly from funding. The most critical parts are the beginning of phase 3 and out, where a multitude of vehicles and equipment is needed.
-
-The proof of concept is approximately halfway done at the time of writing.
-
-### Project Checklist
-
-- [x] Gauge feasibility
-  - [x] Existing technology
-  - [x] Competition
-- [ ] Proof of concept
-  - [x] Simulation
-    - [x] Abstract* vehicle simulation  
-    _By abstract we mean a simplified generalization with randomized parameters. This will enable the model to understand different vehicle properties and adjust output accordingly._
-    - [x] Abstract environment simulation
-    - [x] Easy-to-use reinforcement learning
-    - [ ] Mental model
-      - [x] Simplified mental model (perfect preprocessed data)
-        - [x] Target position relative to vehicle
-        - [x] Vehicle orientation (relative to gravity)
-        - [ ] Traversable area detection
-      - [ ] Complex mental model (same as noisy real world implementation)
-  - [ ] Transfer simulated learning to the real world
-    - [x] Vehicle
-      - [x] RC-car equipped with [NVIDIA Jetson Nano](https://developer.nvidia.com/EMBEDDED/jetson-nano-developer-kit) (based on [DonkeyCar](https://www.donkeycar.com/))
-    - [ ] Complex mental model
-      - [ ] Sensory input
-        - [x] Vision
-          - [x] Object detection (trash)
-          - [x] Depth map
-        - [ ] Orientation
-          - [ ] Gyroscope
-      - [ ] Virtual map
-        - [ ] Target position relative to vehicle
-        - [ ] Vehicle orientation (relative to gravity)
-        - [ ] Traversable area detection
-    - [x] Extract learned model for real word application
-  - [ ] Train in the real world
-  - [ ] Successfully detect and drive to trash
-- [ ] MVP
-  - [ ] Add abstract excavator and wheel loader vehicles to simulation
-    - [ ] Create abstract arm
-    - [ ] Add abstract arm to abstract vehicle
-  - [ ] Simulated training
-    - [ ] Detect trash
-    - [ ] Drive to trash
-    - [ ] Pick up trash
-    - [ ] Place trash where told
-  - [ ] Retrofit a microcontroller unit (MCU) and necessary sensors on a radio controlled excavator and/or wheel loader
-  - [ ] Real world training
-  - [ ] Successfully do steps necessary for removing trash
-    - [ ] Detect trash
-    - [ ] Drive to trash
-    - [ ] Pick up trash
-    - [ ] Place trash where told
-- [ ] Fleet prototype
-  - [ ] Extend sensory inputs
-    - [ ] GPS
-  - [ ] Scale MVP to deploy a fleet of minimum 10 vehicles cooperating
-  - [ ] Charging
-    - [ ] Stations
-    - [ ] Routines
-  - [ ] Autonomous operation with minimal interaction 24/7
-- [ ] Scale vehicle size
-  - [ ] Successfully use framework with a one-to-one scale vehicle (e.g. forklift, car, wheel loader, excavator)
-- [ ] Implementation project
-  - [ ] Make deal with a suited candidate for implementation  
-  _Some of MLAdy's core members has already contacted their workplace regarding testing at their factory facilities. The contact person likes the idea and will likely propose an implementation when MLAdy is ready._
-  - [ ] Formulate detailed plan for implementation
-  - [ ] Implement
-- [ ] Documentation  
-_As the time-frame for documentation coincides with the core team's final semester, this project may be a possible subject for a master's thesis._
-  - [ ] Key findings
-  - [ ] Next-steps
+At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done (see [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing).
 
 ## Theory and Key Concepts
 
@@ -312,11 +230,11 @@ _Note: If no source is cited, definition is formulated by the core team._
 
 > Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving
 
-### Neural network
+### Neural Network
 
 A neural network is an interconnected web of nodes, each layer consisting of weights and biases affecting how input to the network will be transformed to an output.
 
-### Machine learning
+### Machine Learning
 
 [**TechTarget**'s definition of machine learning](https://searchenterpriseai.techtarget.com/definition/machine-learning-ML#:~:text=Machine%20learning%20(ML)%20is%20a,to%20predict%20new%20output%20values.):
 
@@ -324,11 +242,23 @@ A neural network is an interconnected web of nodes, each layer consisting of wei
 
 ### Classification
 
-Classification is a way of organizing input/stimuli into categories. 
+Classification is a way of organizing input/stimuli into categories.
+
+### Training (Machine Learning)
+
+Updating weights and biases in a neural network. Can be done supervised (with given solutions), unsupervised (figuring out relationships, context or categories by itself) or with reinforcement (based on rewards and penalties for consequences).
+
+### Inference (Machine Learning)
+
+Using a trained model to get an output based on an input.
+
+### Agent (Intelligent Agent - Machine Learning)
+
+An agent is something autonomous independently acting in an environment.
 
 ### Reinforcement Learning
 
-Reinforcement learning is a way to utilize machine learning to reinforce an agents behaviors in an environment, based on rewards.
+Reinforcement learning is a way to utilize machine learning to reinforce an agents behaviors in an environment, based on rewards and penalties.
 
 ### Model (Machine Learning)
 
@@ -433,7 +363,7 @@ The barrier to entry for AI and robotics is high, being expensive and complex, s
 
 If the difficulty threshold is reached, MLAdy could hire and assist students in applying the framework in a commercial low-risk setting. In time, MLAdy can hopefully offer high-skilled jobs to students before examination and substantial tech-based economic growth for local companies.
 
-#### Dangers
+#### Threats
 
 As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
 
@@ -443,12 +373,19 @@ A generalized retrofit approach will not provide the same native access to senso
 
 Simulation can boost reinforcement learning by orders of magnitude, as it quickly generates models suitable for transfer learning in the real world and eliminates friction related to hardware and environment in the initial stages.
 
-This is what most of MLAdy's edge stems from. A solid simulation with well scoped randomness, dynamic variables and scenarios will enable training of a superior general driver. Most companies focus training on specific hardware, while MLAdy tries to make all agents trained as general as possible by training on abstractions with automatically changing variables, over precise models.
+This is what most of MLAdy's edge stems from. A solid simulation with well scoped randomness, dynamic variables and scenarios will enable training of a superior general driver. Most companies focus training on specific hardware, while MLAdy tries to make all agents trained as general as possible by training on abstractions with automatically changing variables, instead of precise models.
 
-With a well defined abstraction injected with noise, randomization and variations, precision requirements for physics, imitation of hardware and environments are drastically reduced, as the trained model has learned to adapt to any features of vehicle and environment.
+With a well defined abstraction injected with noise, randomization and variations, precision requirements for physics and imitation of hardware and environments are drastically reduced, as the trained model has learned to adapt to any features of vehicle and environment.
 
-![vision](images/simulation.jpg)
-_Trained RC car agents driving to detected trash in a simulated environment._
+<p align="center">
+  <img src="images/car-simulated.png">
+</p>
+
+<p align="center">
+  <i>Simulated generic RC car with adjustable features</i>
+</p>
+
+MLAdy has defined three possible toolsets for simulation:
 
 - Alternative 1  
 _What is currently in use. Based on Unity and their new reinforcement learning features. MLAdy is developing a method to modify parameters and setup for real world use, and how to apply the toolset in conjunction with other platforms and tools to deploy the simulated agents in the real world. The approach is mostly transferrable to other real-time development platforms and game engines (Unreal Engine for example) if needed, but Unity's interface is superior at the time of writing._
@@ -478,7 +415,9 @@ The end hardware solution is ideally one hub containing the majority of sensors,
 The system must be able to calibrate sensors automatically, and adjust its mental model if placements are off, equipment is damaged or failures occur.
 
 ![DonkeyCar](images/donkeycar.jpg)
-_MLAdy's DonkeyCar for proof of concept training and inference in the real world._
+<p align="center">
+  <i>MLAdy's DonkeyCar for proof of concept training and inference in the real world.</i>
+</p>
 
 Microcontroller unit (brain)
 
@@ -526,7 +465,9 @@ Sensor data merging is greatly simplified by perceiving depth based on the same 
 Other sensors may be added for safety features in the later stages of development if deemed fit.
 
 ![Vision](images/vision.jpg)
-_Visualization of camera input, trash detection and depth estimation._
+<p align="center">
+  <i>Visualization of camera input, trash detection and depth estimation.</i>
+</p>
 
 Perception is based mainly on camera input. The pipeline being developed by MLAdy is as follows:
 - Automatic calibration of input on startup
@@ -536,10 +477,10 @@ Perception is based mainly on camera input. The pipeline being developed by MLAd
   - Depth estimation  
     _As new papers on depth estimation are coming out frequently, MLAdy uses the fastest available pretrained model with a usable error score (preferably with an open license for commercial use). [AdaBins](https://github.com/shariqfarooq123/AdaBins) is currently being tested, with promising results. The final model will likely be custom trained with a heavily reduced resolution, as speed is prioritized. Deducing depth with remembered depth map and other detection techniques will be attempted to speed up perception further. The current processing time without optimizations is 1-2 seconds._
   - Update traversable areas
-    - Classify traversable area in image  
+    - Classify traversable area in image
     - Construct virtual 3D map of traversable area with depth (relative to the vehicle)
   - Locate trash
-    - Object detection
+    - Object detection  
     _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware._
     - Extract depth of object
     - Create vector of target location (relative to the vehicle)
@@ -550,9 +491,70 @@ This input may be sufficient for the proof of concept stage, as proved in simula
 
 By limiting vision sensors to camera only, calibration is streamlined and installation complexity reduced. Position, orientation and amount of cameras are yet to be decided.
 
+## Method - Proof of Concept (Phase 2)
 
+The proof of concept consists of RC car agent detecting and driving to trash. The environment is a flat surface with one piece of trash visible to the agent.
 
-## Budget
+Training and inference is first simulated on a computer, before it is transferred to the real world. Further training is performed, and when car consistently reaches target efficiently on par with a human driver the proof of concept is deemed complete and a success.
+
+![vision](images/simulation.jpg)
+<p align="center">
+  <i>Trained RC car agents driving to detected trash in an early prototype simulation.</i>
+</p>
+
+Detailed steps and progress below:
+
+- [x] Simulation
+  - [x] Abstract* vehicle simulation  
+  _By abstract we mean a simplified generalization with randomized parameters. This will enable the model to understand different vehicle properties and adjust output accordingly._
+  - [x] Abstract environment simulation
+  - [x] Easy-to-use reinforcement learning
+  - [ ] Mental model
+    - [x] Simplified mental model (perfect preprocessed data)
+      - [x] Target position relative to vehicle
+      - [x] Vehicle orientation (relative to gravity)
+      - [ ] Traversable area detection
+    - [ ] Complex mental model
+      - [x] Sensory input (digital twin of real world implementation)
+        - [x] Vision
+          - [x] Object detection (trash)
+          - [x] Depth map
+        - [x] Orientation
+          - [x] Gyroscope
+      - [ ] Virtual map
+        - [ ] Target position relative to vehicle
+        - [ ] Vehicle orientation (relative to gravity)
+        - [ ] Traversable area detection
+- [ ] Transfer simulated learning to the real world
+  - [x] Vehicle
+    - [x] RC-car equipped with [NVIDIA Jetson Nano](https://developer.nvidia.com/EMBEDDED/jetson-nano-developer-kit) (based on [DonkeyCar](https://www.donkeycar.com/))
+  - [x] Environment
+    - [x] Flat area
+    - [x] Trash
+  - [ ] Complex mental model
+    - [ ] Sensory input
+      - [x] Vision
+        - [x] Object detection (trash)
+        - [x] Depth map
+      - [ ] Orientation
+        - [ ] Gyroscope
+    - [ ] Virtual map
+      - [ ] Target position relative to vehicle
+      - [ ] Vehicle orientation (relative to gravity)
+      - [ ] Traversable area detection
+  - [x] Extract learned model for real word application
+- [ ] Train in the real world
+- [ ] Successfully detect and drive to trash
+
+### Evaluation and results
+
+Criteria for success is that the agent can detect, drive towards and stop directly in front of a target.
+
+Simulation training showed that the simplified input vector of relative position to target and agent orientation was enough for the agent to successfully drive to a randomly spawned trash object with a 100% success rate.
+
+For real world tests, it is required that the simulated model is usable as a starting point for real world training and that the mental model performs similarly in simulation and reality (or is handled equally well by the agent in both cases). That remains to be seen.
+
+## Budget (Phase 1-2)
 
 ### 1. Gauge feasibility
 
@@ -562,7 +564,81 @@ No equipment needed.
   
 All components needed can be found at Eik Lab's workshop and borrowed elsewhere.
 
-### 3. MVP
+(See budgets under [next-steps](#next-steps) for more)
+
+## Conclusion and Recommendations
+
+So far, early testing and development has been a success. An end-to-end pipeline proving the assumptions generalized abstracted simulation is almost complete.  with some real world tests left to be done.
+
+### Next steps
+
+Immediately, the proof of concept should be finalized and documented. If it the trajectory continues and the second phase is deemed a success, the team can move on to the phase 3. 
+
+Development, experimentation and evaluation will be done for each prototype step (3-6), to promote pivoting as necessary. The most critical experiment will be an implementation with an industrial partner.
+
+For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used up until phase 5.
+
+1. MVP (Minimum Viable Product)  
+2021 Q1-Q2  
+Goal: Extend features to perform a complete task (trash removal)
+
+1. Fleet prototype  
+2021 Q2-Q3  
+Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal interaction
+
+1. Scale vehicle size  
+2021 Q4  
+Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
+
+1. Implementation project  
+2022 Q1-Q3  
+Goal: Successfully apply framework in a useful real life application
+
+1. Reflection and next-steps  
+2022 Q3  
+Goal: Document key findings throughout the project and propose possible next-steps
+
+All phases will benefit greatly from funding, as a multitude of vehicles and equipment is needed.
+
+#### Checklist
+
+- [ ] MVP (Phase 3)
+  - [ ] Add abstract excavator and wheel loader vehicles to simulation
+    - [ ] Create abstract arm
+    - [ ] Add abstract arm to abstract vehicle
+  - [ ] Simulated training
+    - [ ] Detect trash
+    - [ ] Drive to trash
+    - [ ] Pick up trash
+    - [ ] Place trash where told
+  - [ ] Retrofit a microcontroller unit (MCU) and necessary sensors on a radio controlled excavator and/or wheel loader
+  - [ ] Real world training
+  - [ ] Successfully do steps necessary for removing trash
+    - [ ] Detect trash
+    - [ ] Drive to trash
+    - [ ] Pick up trash
+    - [ ] Place trash where told
+- [ ] Fleet prototype (Phase 4)
+  - [ ] Extend sensory inputs
+    - [ ] GPS
+  - [ ] Scale MVP to deploy a fleet of minimum 10 vehicles cooperating
+  - [ ] Charging
+    - [ ] Stations
+    - [ ] Routines
+  - [ ] Autonomous operation with minimal interaction 24/7
+- [ ] Scale vehicle size (Phase 5)
+  - [ ] Successfully use framework with a one-to-one scale vehicle (e.g. forklift, car, wheel loader, excavator)
+- [ ] Implementation project (Phase 6)
+  - [ ] Make deal with a suited candidate for implementation  
+  _Some of MLAdy's core members has already contacted their workplace regarding testing at their factory facilities. The contact person likes the idea and will likely propose an implementation when MLAdy is ready._
+  - [ ] Formulate detailed plan for implementation
+  - [ ] Implement
+- [ ] Documentation (Phase 7)  
+_As the time-frame for documentation coincides with the core team's final semester, this project may be a possible subject for a master's thesis should they still be involved._
+  - [ ] Key findings
+  - [ ] Next-steps
+
+#### Budget (Phase 3)
 
 Some components needed can be found at Eik Lab's workshop and borrowed elsewhere.
 
@@ -599,10 +675,6 @@ The following must be bought:
   </tr>
 </table>
 
+#### Budget (Phase 4-7)
 
-#### 4-7. Remaining phases
-
-Budgets for remaining phases will be decided when seeking further funding.
-
-## Conclusion and Recommendations
-
+Budgets for remaining phases will be decided when seeking further funding, as needs are uncertain before phase 3 nears completion.
