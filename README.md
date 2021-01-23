@@ -8,27 +8,60 @@ MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and m
 
 Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
 
-A pipeline to a market ready implementation is projected to be done before the end of 2022 Q2.
+A pipeline to market ready implementation is projected to be done before the end of 2022 Q2.
+
+## TODO <!-- omit in toc -->
+
+Temporary section overviewing what remains to be done.
+
+- [ ] Mentors
+  - [ ] Academic mentors (at least one)
+    - [ ] [Simen Hesleskaug](https://www.nmbu.no/ans/simen.hesleskaug)
+    - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic)
+    - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland)
+    - [ ] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
+  - [ ] Commercial mentors (at least one)
+    - [ ] Eirik Størdal
+    - [ ] Henrik Prestmo
+- [ ] Realization strategy
+  - [ ] Position in value chain
+  - [ ] Business model
+    - [ ] Partners
+    - [ ] Activities
+    - [ ] Value propositions
+    - [ ] Customer relationships
+    - [ ] Custom segments
+    - [ ] Resources
+    - [ ] Cost structure
+    - [ ] Revenue streams
+- [ ] Rights and licenses
+
+Resources for delivery criteria:
+
+[STUD-ENT application criteria](https://www.forskningsradet.no/utlysninger/2021/studententreprenorskap/)
+
 
 ## Table of Contents <!-- omit in toc -->
 
 - [Abbreviations](#abbreviations)
 - [Background](#background)
-  - [Benefit to Society and Sustainability](#benefit-to-society-and-sustainability)
 - [Problem Statement](#problem-statement)
+- [Market](#market)
+  - [Competition and similar offerings](#competition-and-similar-offerings)
+  - [MLAdy's Edge](#mladys-edge)
+  - [Threats and Pivots](#threats-and-pivots)
+  - [Benefit to Society and Sustainability](#benefit-to-society-and-sustainability)
 - [Goals and Objectives](#goals-and-objectives)
 - [Limitations](#limitations)
 - [Project Implementation](#project-implementation)
   - [Team](#team)
+  - [University contributions](#university-contributions)
   - [Major Milestones](#major-milestones)
 - [Theory and Key Concepts](#theory-and-key-concepts)
 - [Technical Review](#technical-review)
   - [Simulation tools](#simulation-tools)
   - [Real world tools](#real-world-tools)
     - [Vision (code - used in simulation and the real world)](#vision-code---used-in-simulation-and-the-real-world)
-  - [Competition and similar offerings](#competition-and-similar-offerings)
-    - [MLAdy's Edge](#mladys-edge)
-    - [Threats and Pivots](#threats-and-pivots)
 - [Method - Proof of Concept (Phase 2)](#method---proof-of-concept-phase-2)
   - [Evaluation and results](#evaluation-and-results)
 - [Budget (Phase 1-2)](#budget-phase-1-2)
@@ -48,6 +81,7 @@ A pipeline to a market ready implementation is projected to be done before the e
 - MVP: Minimum viable product
 - MCU: Microcontroller unit
 - NMBU: Norwegian University of Life Sciences (Norges Miljø- og Biovitenskapelige Universitet)
+- PLM: Product Lifecycle Management
 
 ## Background
 
@@ -81,32 +115,109 @@ MLAdy's long-term vision is to be an AI- and robotics foundation intended for mu
 - Education
 - Maintenance
 - Cleaning
-
-### Benefit to Society and Sustainability
-
-**Possible upsides**:
-
-+ Accessible AI and robotic development and deployment
-+ Quicker adoption of new technology
-+ Real-world projects for students
-+ Low-risk method for firms to test robotics and AI
-+ Provides high-skilled jobs
-+ High-tech open source code and methods
-+ Synergic research projects with other disciplines at NMBU (other universities down the line)
-+ Potential for safer autonomous vehicles in commercial applications
-+ Freeing up development time and resources
-
-**Possible downsides**:
-
-- Replaces jobs
-- Work-force willingness to adjust
-- Safety concerns related to autonomous vehicles
+- Mining
+- Residential
+- Energy
+- Infrastructure
 
 ## Problem Statement
 
 Operations utilizing vehicles, machinery and physical labor are resource-intensive and present serious health risks.
 
 MLAdy offers a highly generalized and scalable way to apply reinforcement learning to existing hardware, offloading direct operation of heavy machinery and physical tasks without the need for hardware replacement.
+
+## Market
+
+### Competition and similar offerings
+
+There are multiple big actors working on robotics:
+
+- [Boston Dynamics](https://www.bostondynamics.com/)
+- [ANYbotics](https://www.anybotics.com/)
+- [SIASUN](http://www.siasun.com/index.php?m=content&c=index&a=initsa)
+- [Clearpath Robotics](https://clearpathrobotics.com/)
+- [Fetch Robotics](https://fetchrobotics.com/)
+- [Amazon Robotics](https://www.amazonrobotics.com/)
+- [Sarcos](https://www.sarcos.com/)
+- [Diligent Robotics](https://diligentrobots.com/)
+- [Universal Robots](https://www.universal-robots.com/)
+
+...and many more.
+
+Most if not all have started to adopt modern AI.
+
+Robotic and AI software platforms and frameworks:
+
+- [PyRobot (Facebook)](https://github.com/facebookresearch/pyrobot)
+- [Isaac (NVIDIA)](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/)
+- [Webots](https://cyberbotics.com/)
+- [Coppelia Robotics](https://www.coppeliarobotics.com/)
+- [Marilou](http://www.anykode.com/marilou.php)
+- [Gazebo](http://gazebosim.org/)
+- [OpenAI Gym](https://gym.openai.com/)
+- [Robot Operating System (ROS)](https://www.ros.org/)
+
+Competitors offering retrofit systems:
+
+- [Built Robotics](http://www.builtrobotics.com/)  
+Same principles as MLAdy, but selling entire retrofitted vehicles, not just the retrofit. Also offers training to engineers. 
+- [Perrone Robotics](https://www.perronerobotics.com/)  
+Retrofit kits for defined zone transit.
+- 
+
+### MLAdy's Edge
+
+A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions, which is often limited in scope.
+
+![Confused Robot](images/confused-robot.png)
+
+MLAdy's scalable and retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as being more generally applicable. Deployment will be faster than other methods, as retrofitting tried-and-true vehicles and machinery already in use bypasses a large amount of development done by competition.
+
+![Tools for the Job](images/tools-for-the-job.png)
+
+If a full size vehicle is not needed, MLAdy offers the benefit of using RC-variants of a suited vehicle for the job.
+
+By retrofitting vehicles, MLAdy assists businesses in their product lifecycle management (PLM), by extending the life of current vehicles. This will smoothen out a shift towards autonomous robots, while reducing waste.
+
+MLAdy will not compete with other software platforms or frameworks, as they will be used as tools. The project's goal is to implement AI and robotics, not to create a standalone software suite.
+
+The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/). These are widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and may be adopted by MLAdy.
+
+MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as feedback from the open source community can improve the framework. This decision will be guided by a decision analysis, to make sure the move will strengthen MLAdy's competitive advantage
+
+Active participation by students at NMBU will be a priority given that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
+
+MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the collaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
+
+### Threats and Pivots
+
+**Cheaper robotics:** As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
+
+![Pivots](images/pivots.png)
+![Mass Produced Robots](images/pricedrop.png)
+
+**Native access:** A generalized retrofit approach will not provide the same native access to sensors and controls as custom solutions, making fail-safes less accessible. This might require extensive experimentation to guarantee safe operation. On the other hand, the approach allows for quickly changing out hardware for safer alternatives (such as downscaled variants of the conventionally used hardware).
+
+**Autonomy by vehicle manufacturers**: Some manufacturers have begun introducing autonomy in newer vehicles. MLAdy can work on market segments slow to adopt change or retrofit old vehicles to reduce waste, but these are likely fading opportunities. A more sustainable approach as the retrofit market closes, may be developing technology in cooperation with the manufacturers.
+
+### Benefit to Society and Sustainability
+
+**Possible upsides**:
+
++ Low-risk method for firms to test robotics and AI
++ Accessible and speedy AI and robotic development and deployment
++ Scalable safety on demand
++ Quicker adoption of new technology
++ Real-world projects for students
++ Creation of high-skilled jobs
++ High-tech open source code and methods
++ Synergic research projects with other disciplines at NMBU (other universities down the line)
+
+**Possible downsides**:
+
+- Replaces jobs
+- Work-force willingness to adjust
+- Safety concerns related to autonomous vehicles (primarily for full size implementation)
 
 ## Goals and Objectives
 
@@ -160,30 +271,48 @@ The team driving MLAdy consists of engineering students at NMBU, who are all on 
 
 ### Team
 
+The core team is made up of engineering students and tech enthusiasts at NMBU, engaged in disciplines ranging from mechanical and electrical engineering to application development and data science. All members are active participants of a student organization [Eik Lab](https://www.nmbu.no/aktuelt/node/41024) (previously known as Eik Idéverksted), who recently became an official part of NMBU. It is the University's hub of student innovation, with a long track-record of pioneering and cutting edge technology projects.
+
 <table>
   <tr>
     <th>Name</th>
     <th>Role</th>
+    <th>Education</th>
     <th>Full time equivalent (Project plan)</th>
   </tr>
   <tr>
     <td>Kristian Gunder Kramås</td>
     <td>Technical lead</td>
+    <td>
+      <div>Engineering, data science (fourth year of master's degree)</div>
+      <div>Completed bachelor of business administration</div>
+    </td>
     <td>100%</td>
   </tr>
   <tr>
     <td>Anders Mathiesen</td>
     <td>Developer (general)</td>
+    <td>Engineering, data science (fourth year of master's degree)</td>
     <td>100%</td>
   </tr>
   <tr>
     <td>Jan Tore Andersen</td>
     <td>Developer (3D-modelling mainly)</td>
+    <td>Engineering, mechanics and process technology (fourth year of master's degree)</td>
     <td>50%</td>
   </tr>
 </table>
 
-The table shows core members of MLAdy only, but MLAdy welcomes contributions from people interested in the project. Notable mentions so far includes:
+The core teams prior experience includes:
+
+- [Digitization of industrial documentation](https://www.trelleborg.com/en/offshore/news--and--events/blogs/internships--at--trelleborg--offshore--norway)
+- Detection of mice species in research using machine learning
+- [Smart and cloud-connected water fountains](https://www.sildr.no/)
+- Full stack web development
+- Research equipment for gene manipulation
+- 3D-modelling, animation and rendering
+
+The above table shows core members of MLAdy only, but MLAdy welcomes contributions from people interested in the project. Notable mentions so far include:
 
 - Uzair Aftab
   - Performance optimizations
@@ -192,11 +321,36 @@ The table shows core members of MLAdy only, but MLAdy welcomes contributions fro
 - Simen Sjølie
   - Electrical guidance
 
+### University contributions
+
+<table>
+  <tr>
+    <th>Contribution</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Office space</td>
+    <td>The core team has free access to work at Eik Lab's workshop at NMBU</td>
+  </tr>
+  <tr>
+    <td>Hardware</td>
+    <td>Eik Lab has an inventory of tools and components suited for mockups and prototypes</td>
+  </tr>
+  <tr>
+    <td>Guidance</td>
+    <td>NMBU has in-house experts on machine learning, artificial intelligence and data science, who will gladly offer guidance to students doing relevant projects</td>
+  </tr>
+  <tr>
+    <td>Academic community</td>
+    <td>NMBU has a diverse set of relevant academic communities in disciples such as robotics, data science, programming, electronics and more</td>
+  </tr>
+</table>
+
 ### Major Milestones
 
 Project start: 1. January 2021
 
-Based on stated goal and objectives, the project is divided into two phases (see [next-steps](#next-steps) for further development and more phases).
+Based on stated goal and objectives, the project is divided into two phases (see [next-steps](#next-steps) for further development and phases).
 
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used for proof of concept.
 
@@ -462,67 +616,6 @@ Initially the model's input will be a flattened vector consisting of all gyrosco
 This input may be sufficient for the proof of concept stage, as proved in simulation without real life noise.
 
 By limiting vision sensors to camera only, calibration is streamlined and installation complexity reduced. Position, orientation and amount of cameras are yet to be decided.
-
-
-### Competition and similar offerings
-
-There are multiple big actors working on robotics:
-
-- [Boston Dynamics](https://www.bostondynamics.com/)
-- [ANYbotics](https://www.anybotics.com/)
-- [SIASUN](http://www.siasun.com/index.php?m=content&c=index&a=initsa)
-- [Clearpath Robotics](https://clearpathrobotics.com/)
-- [Fetch Robotics](https://fetchrobotics.com/)
-- [Amazon Robotics](https://www.amazonrobotics.com/)
-- [Sarcos](https://www.sarcos.com/)
-- [Diligent Robotics](https://diligentrobots.com/)
-- [Universal Robots](https://www.universal-robots.com/)
-
-...and many more.
-
-Most if not all have started to adopt modern AI.
-
-Robotic and AI software platforms and frameworks:
-
-- [PyRobot (Facebook)](https://github.com/facebookresearch/pyrobot)
-- [Isaac (NVIDIA)](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/)
-- [Webots](https://cyberbotics.com/)
-- [Coppelia Robotics](https://www.coppeliarobotics.com/)
-- [Marilou](http://www.anykode.com/marilou.php)
-- [Gazebo](http://gazebosim.org/)
-- [OpenAI Gym](https://gym.openai.com/)
-- [Robot Operating System (ROS)](https://www.ros.org/)
-
-#### MLAdy's Edge
-
-A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions, which is often limited in scope.
-
-![Confused Robot](images/confused-robot.png)
-
-MLAdy's scalable and retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as being more generally applicable. Deployment will be faster than other methods, as retrofitting tried-and-true vehicles and machinery already in use bypasses a large amount of development done by competition.
-
-![Tools for the Job](images/tools-for-the-job.png)
-
-If a full size vehicle is not needed, MLAdy offers the benefit of using RC-variants of a suited vehicle for the job.
-
-MLAdy will not compete with other software platforms or frameworks, as they will be used as tools. The project's goal is to implement AI and robotics, not to create a standalone software suite.
-
-The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/), widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and may be adopted by MLAdy.
-
-MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as feedback from the open source community can improve the framework.
-
-Active participation by students at NMBU will be a priority given that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
-
-MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the collaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
-
-#### Threats and Pivots
-
-As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
-
-![Pivots](images/pivots.png)
-![Mass Produced Robots](images/pricedrop.png)
-
-A generalized retrofit approach will not provide the same native access to sensors and controls as custom solutions, making fail-safes less accessible. This might require extensive experimentation to guarantee safe operation. On the other hand, the approach allows for quickly changing out hardware for safer alternatives (such as downscaled variants of the conventionally used hardware). 
 
 ## Method - Proof of Concept (Phase 2)
 
