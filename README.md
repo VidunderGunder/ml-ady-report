@@ -1,12 +1,14 @@
 # MLAdy - Retrofitting Autonomy <!-- omit in toc -->
 
+![circle](images/circle.png)
+
 Robotics and AI offers radical improvements in productivity, expenditure and safety, but the market is slow to adopt new technology. Initial investments for early adopters are expensive and high-risk. 
 
 MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and machinery in public and industrial applications, using a simulation and retrofitting approach with scalable complexity, scope and size.
 
 Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
 
-The pipeline to a market ready implementation is defined, and is projected to be done before the end of 2022 Q2.
+A pipeline to a market ready implementation is projected to be done before the end of 2022 Q2.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -20,33 +22,13 @@ The pipeline to a market ready implementation is defined, and is projected to be
   - [Team](#team)
   - [Major Milestones](#major-milestones)
 - [Theory and Key Concepts](#theory-and-key-concepts)
-  - [Artificial Intelligence](#artificial-intelligence)
-  - [Neural Network](#neural-network)
-  - [Machine Learning](#machine-learning)
-  - [Classification](#classification)
-  - [Training (Machine Learning)](#training-machine-learning)
-  - [Inference (Machine Learning)](#inference-machine-learning)
-  - [Agent (Intelligent Agent - Machine Learning)](#agent-intelligent-agent---machine-learning)
-  - [Reinforcement Learning](#reinforcement-learning)
-  - [Model (Machine Learning)](#model-machine-learning)
-  - [Transfer Learning](#transfer-learning)
-  - [Composition Learning](#composition-learning)
-  - [Computer Vision](#computer-vision)
-  - [Object Detection (Computer Vision)](#object-detection-computer-vision)
-  - [Depth Estimation (Computer Vision)](#depth-estimation-computer-vision)
-  - [Retrofitting](#retrofitting)
-  - [Real-Time Development Platform](#real-time-development-platform)
-  - [Robotics](#robotics)
-  - [Scalability](#scalability)
-  - [Simulation](#simulation)
 - [Technical Review](#technical-review)
-  - [Up-to-date papers and code](#up-to-date-papers-and-code)
-  - [Competition and similar offerings](#competition-and-similar-offerings)
-    - [MLAdy's Edge](#mladys-edge)
-    - [Threats](#threats)
   - [Simulation tools](#simulation-tools)
   - [Real world tools](#real-world-tools)
     - [Vision (code - used in simulation and the real world)](#vision-code---used-in-simulation-and-the-real-world)
+  - [Competition and similar offerings](#competition-and-similar-offerings)
+    - [MLAdy's Edge](#mladys-edge)
+    - [Threats](#threats)
 - [Method - Proof of Concept (Phase 2)](#method---proof-of-concept-phase-2)
   - [Evaluation and results](#evaluation-and-results)
 - [Budget (Phase 1-2)](#budget-phase-1-2)
@@ -73,11 +55,20 @@ The idea for MLAdy was born out of a discussion regarding automation of existing
 
 Lacking in available technology and competence, the project was put on hold, but recent advancements in reinforcement learning and computer vision has made the challenge surmountable for a small engineering team. These new-found tools and methods enables the creation of a generalized framework for quick robotics and AI prototyping, enabling implementation in a wide variety of areas.
 
-Most robotics firms develop expensive and custom-made robots entirely from scratch, and as a result adoption of the technology suffers. The main challenge in combining AI and robotics is often not the hardware, but the digital brain that operates it. Most tasks already have suitable machinery, all the they need is the autonomy. That's why MLAdy exists - to offer a quick, cheap and accessible way to start using AI and robotics for safer and more effective operation.
+![Expensive Development Equation](images/dev-equation-competition.png)
+![Expensive Development](images/expensive.png)
+
+Most robotics firms develop expensive and custom-made robots entirely from scratch, and as a result adoption of the technology suffers. The main challenge in combining AI and robotics is often not the hardware, but the digital brain that operates it. Most tasks already have suitable machinery, all the they need is the autonomy. That's why MLAdy exists - to offer a quick, cheap and accessible way to start using AI and robotics for safer and more effective operation, by focusing on what matters.
+
+![Valuable Part](images/valueable-part.png)
 
 Take farm and construction vehicles for example; they are mass produced and widely available industrial solutions tested in the real world for a long time. By using this hardware over from-scratch-solutions, complex and time-consuming development is cut to a minimum.
 
+![Scalable Retrofitted Autonomy](images/dev-equation.png)
+
 As a bonus, if the task does not require full size vehicles, scaled down RC variants can be used. They are lot safer to develop and deploy than heavy machinery. The other way around? Not a problem - a generalized reinforcement learning approach will work just as well with custom hardware facing highly complex tasks. This way, MLAdy proposes a way to scale complexity on demand.
+
+![RC](images/rc.png)
 
 MLAdy's long-term vision is to be an AI- and robotics foundation intended for a multitude of use-cases.
 
@@ -98,7 +89,7 @@ In the long run, applications may include (but are not limited to):
 **Possible upsides**:
 
 + Accessible AI and robotic development and deployment
-+ Quicker adoption of bleeding edge technology
++ Quicker adoption of new technology
 + Real-world projects for students
 + Low-risk method for firms to test robotics and AI
 + Provides high-skilled jobs
@@ -157,9 +148,13 @@ In order to develop such a framework, the following objectives and activities mu
 
 As possible applications of the framework can vary enormously, a clear and concise goal is needed to formulate the framework effectively. This should optimally be something that attracts developers, students and investors to the project, as it will help speed up the process further and increase overall chances of success.
 
-The environmental challenges of this day and age is as relevant as ever, and garbage is piling up. Hence, MLAdy has decided that the first part of the project will consist of a deployment of a fleet of budget RC vehicles to collect garbage at the Norwegian University of Life Sciences (NMBU) and surrounding areas.
+The environmental challenges of this day and age is as relevant as ever, and garbage is piling up. Hence, MLAdy has decided that the beginning stages of the project will consist of a deployment of a fleet of budget RC vehicles to collect garbage at the Norwegian University of Life Sciences (NMBU) and surrounding areas.
 
-Further limiting this, a proof of concept is proposed. This is to quickly test if the technology is ready and the approach is achievable. If this is a success, the project may be continued on a proposed trajectory (see [next-steps](#next-steps)).
+Further limiting this, a proof of concept is proposed: Simulating a vehicle able to detect and drive to trash, and use a trained model to do the same task in the real world.
+
+![Proof of Concept](images/poc.png)
+
+This is to quickly test if the technology is ready and the approach is achievable. If this is a success, the project may be continued on a trajectory proposed in [next-steps](#next-steps).
 
 ## Project Implementation
 
@@ -227,150 +222,127 @@ At the time of writing, feasibility study is completed, while the proof of conce
 
 _Note: If no source is cited, definition is formulated by the core team._
 
-### Artificial Intelligence
+**Artificial Intelligence**
 
 [**Investopedia** defines artificial intelligence as follows](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp#:~:text=Artificial%20intelligence%20(AI)%20refers%20to,as%20learning%20and%20problem%2Dsolving.): 
 
 > Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving
 
-### Neural Network
+**Neural Network**
 
 A neural network is an interconnected web of nodes, each layer consisting of weights and biases affecting how input to the network will be transformed to an output.
 
-### Machine Learning
+**Machine Learning**
 
 [**TechTarget**'s definition of machine learning](https://searchenterpriseai.techtarget.com/definition/machine-learning-ML#:~:text=Machine%20learning%20(ML)%20is%20a,to%20predict%20new%20output%20values.):
 
 > Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.
 
-### Classification
+**Classification**
 
 Classification is a way of organizing input/stimuli into categories.
 
-### Training (Machine Learning)
+**Training (Machine Learning)**
 
 Updating weights and biases in a neural network. Can be done supervised (with given solutions), unsupervised (figuring out relationships, context or categories by itself) or with reinforcement (based on rewards and penalties for consequences).
 
-### Inference (Machine Learning)
+**Inference (Machine Learning)**
 
 Using a trained model to get an output based on an input.
 
-### Agent (Intelligent Agent - Machine Learning)
+**Agent (Intelligent Agent - Machine Learning)**
 
 An agent is something autonomous independently acting in an environment.
 
-### Reinforcement Learning
+**Reinforcement Learning**
 
 Reinforcement learning is a way to utilize machine learning to reinforce an agents behaviors in an environment, based on rewards and penalties.
 
-### Model (Machine Learning)
+**Model (Machine Learning)**
 
 A multi-input and multi-output function, most commonly consisting of a conventional neural network, created (trained) with machine learning techniques.
 
-### Transfer Learning
+**Transfer Learning**
 
 Using part of a model to train a new model. For example, the introductory layers of object detection is often extracting fundamental features, and can be used to detect cats or dogs, depending on the following layers.
 
-### Composition Learning
+**Composition Learning**
 
 A form of composition, where multiple machine learning models can be connected to each other. An example is a classification model that finds traversable areas, feeding the output to a behavior decision model, that activates a model responsible for movement, if it decides to move.
 
-### Computer Vision
+**Computer Vision**
 
 Using sensory input (often for some wavelength - camera, lidar, radar) to perceive. Concept can be extended to producing a mental model or map.
 
 A mental model may be useful for reinforcement learning agents, as it provides a deeper understanding of inputs and outputs, as well as a better foundation for developers to assign rewards and other logic.
 
-### Object Detection (Computer Vision)
+**Object Detection (Computer Vision)**
 
 Classifying and locating objects in images. 
 
-### Depth Estimation (Computer Vision)
+**Depth Estimation (Computer Vision)**
 
 Estimation of distance from camera to surface area. 
 
-### Retrofitting
+**Retrofitting**
 
 To apply something new to an existing object.
 
-### Real-Time Development Platform
+**Real-Time Development Platform**
 
 Software made for real-time simulation. May be interchanged with the term "game engine", depending on application of the software.
 
-### Robotics
+**Robotics**
 
 [**Britannica**'s definition](https://www.britannica.com/technology/robotics):
 
 > Design, construction, and use of machines (robots) to perform tasks done traditionally by human beings.
 
-### Scalability
+**Scalability**
 
 [According to **Investopedia**](https://www.investopedia.com/terms/s/scalability.asp):
 
 > Scalability is a characteristic of an organization, system, model, or function that describes its capability to cope and perform well under an increased or expanding workload or scope. A system that scales well will be able to maintain or even increase its level of performance or efficiency even as it is tested by larger and larger operational demands.
 
-### Simulation
+**Simulation**
 
 Scoped recreation or imitation of the real world. In this case, digitally on a computer. May be used to prepare for real world scenarios or gain insight.
 
-## Technical Review
-
-### Up-to-date papers and code
+**Up-to-date papers and code**
 
 To keep up with and utilize the rapid development in the field of AI, computer vision and robotics, MLAdy is daily updating methods based on the newest available research and implementations. The two main hubs used are [PapersWithCode](https://paperswithcode.com/) and [GitHub](https://github.com/).
 
-### Competition and similar offerings
+## Technical Review
 
-There are multiple big actors working on robotics:
+Creation of an autonomous vehicle capable of driving to trash can be divided into three separate tasks: Get data, process and act.
 
-- [Boston Dynamics](https://www.bostondynamics.com/)
-- [ANYbotics](https://www.anybotics.com/)
-- [SIASUN](http://www.siasun.com/index.php?m=content&c=index&a=initsa)
-- [Clearpath Robotics](https://clearpathrobotics.com/)
-- [Fetch Robotics](https://fetchrobotics.com/)
-- [Amazon Robotics](https://www.amazonrobotics.com/)
-- [Sarcos](https://www.sarcos.com/)
-- [Diligent Robotics](https://diligentrobots.com/)
-- [Universal Robots](https://www.universal-robots.com/)
+These tasks are looped until the current goal is achieved.
 
-...and many more.
+![Agent Loop](images/agent-loop.png)
 
-Most if not all have started to adopt modern AI.
+Data is obtained with sensors, processed by a composition of neural nets and performed with connected hardware.
 
-Robotic and AI software platforms and frameworks:
+![Brain in Context](images/brain-in-context.png)
 
-- [PyRobot (Facebook)](https://github.com/facebookresearch/pyrobot)
-- [Isaac (NVIDIA)](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/)
-- [Webots](https://cyberbotics.com/)
-- [Coppelia Robotics](https://www.coppeliarobotics.com/)
-- [Marilou](http://www.anykode.com/marilou.php)
-- [Gazebo](http://gazebosim.org/)
-- [OpenAI Gym](https://gym.openai.com/)
-- [Robot Operating System (ROS)](https://www.ros.org/)
+The core of MLAdy is the processing. Processing is done by an agent. The proof of concept is limited to one agent, who is only capable of finding and traversing to trash. 
 
-#### MLAdy's Edge
+Usually an agent is conceptualized as the entire vehicle, but to illustrate MLAdy's approach, a blue mascot is used to make it clear that the agent is a driver or operator that can handle a multiple different vehicles (the design is an homage to the [agents used in Unity's basic examples for ML Agents](https://github.com/Unity-Technologies/ml-agents)).
 
-A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions. MLAdy's scalable and retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as more generally applicable.
+![Agent](images/agent-brain.png)
 
-Deployment will be faster than other methods, as the core idea is retrofitting tried-and-true vehicles and machinery already in use, bypassing a large amount of development needed for custom-tailored hardware solutions.
+An agent trained with homogenous environments and features, will only handle a limited set of tasks, and respond badly to new situations.
 
-MLAdy will not necessarily compete with other software platforms or frameworks, as the projects proposed framework is leaning more towards the realization and implementation of available technology - only developing solutions in-house if not available elsewhere. Other platforms will likely be of benefit as tools to make this possible. The project's goal is to make it as effective as possible to implement AI and robotics, not to create a standalone software suite.
+![Homogenous Training](images/homogenous-training.png)
 
-The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/), widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and should then be incorporated into MLAdy's own.
+That's why AI developers tend to challenge their agents with a range of scenarios, dynamic environments, randomness and noise. MLAdy extends this approach to the agent's vehicle, to train a generalized driver.
 
-MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as this may feedback positively by the open source community improving the framework.
+![Heterogenous Training](images/heterogeneous-training.png)
 
-Active participation by students at NMBU will be a priority if the start-up is a success. Students will gain real life experience in an accessible way, while helping push innovation.
+This approach automatically prepares the agent for unforeseen consequences as well, such as flat tires and missing or stuck parts. 
 
-The barrier to entry for AI and robotics is high, being expensive and complex, so reducing this to a level that allows for limited prototype implementations may be an effective way of facilitating commercial use. MLAdy hopes to reduce the difficulty of a real life implementation to a level suited for a small team of engineering students. 
+Simulation is only valuable if applicable in real world scenarios, so simulated and real systems must be designed to compliment the same network of neural nets. If simulated training is applicable for the downscaled RC-car used in the proof of concept, the same model could be used on a one-to-one scale vehicle with some further transfer training.
 
-If the difficulty threshold is reached, MLAdy could hire and assist students in applying the framework in a commercial low-risk setting. In time, MLAdy can hopefully offer high-skilled jobs to students before examination and substantial tech-based economic growth for local companies.
-
-#### Threats
-
-As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
-
-A generalized retrofit approach will not provide the same native access to sensors and controls as custom solutions, making fail-safes less accessible. This might require extensive experimentation to guarantee safe operation. On the other hand, the approach allows for quickly changing out hardware for safer alternatives (such as downscaled variants of the conventionally used hardware). 
+![Transfer Learning to Real World](images/scale.png)
 
 ### Simulation tools
 
@@ -413,14 +385,13 @@ _What is currently in use. Based on Unity and their new reinforcement learning f
 
 Generally applicable and budget-oriented hardware and software is needed to be able to retrofit a wide variety of vehicles and machinery. As internal sensory input (joint positions, forces applied etc.) is challenging and complex when working with a wide variety of established vehicles, most inputs will be based on sensors that fit any form factor.
 
+![Complex Sensor input](images/complex-sensors.png)
+
 The end hardware solution is ideally one hub containing the majority of sensors, with as few extra nodes placed at critical positions on the vehicle in question.
 
-The system must be able to calibrate sensors automatically, and adjust its mental model if placements are off, equipment is damaged or failures occur.
+![](images/simple-sensors.png)
 
-![DonkeyCar](images/donkeycar.jpg)
-<p align="center">
-  <i>MLAdy's DonkeyCar for proof of concept training and inference in the real world.</i>
-</p>
+The system must be able to calibrate sensors automatically, and adjust its mental model if placements are off, equipment is damaged or failures occur.
 
 Microcontroller unit (brain)
 
@@ -494,18 +465,83 @@ This input may be sufficient for the proof of concept stage, as proved in simula
 
 By limiting vision sensors to camera only, calibration is streamlined and installation complexity reduced. Position, orientation and amount of cameras are yet to be decided.
 
+
+### Competition and similar offerings
+
+There are multiple big actors working on robotics:
+
+- [Boston Dynamics](https://www.bostondynamics.com/)
+- [ANYbotics](https://www.anybotics.com/)
+- [SIASUN](http://www.siasun.com/index.php?m=content&c=index&a=initsa)
+- [Clearpath Robotics](https://clearpathrobotics.com/)
+- [Fetch Robotics](https://fetchrobotics.com/)
+- [Amazon Robotics](https://www.amazonrobotics.com/)
+- [Sarcos](https://www.sarcos.com/)
+- [Diligent Robotics](https://diligentrobots.com/)
+- [Universal Robots](https://www.universal-robots.com/)
+
+...and many more.
+
+Most if not all have started to adopt modern AI.
+
+Robotic and AI software platforms and frameworks:
+
+- [PyRobot (Facebook)](https://github.com/facebookresearch/pyrobot)
+- [Isaac (NVIDIA)](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/)
+- [Webots](https://cyberbotics.com/)
+- [Coppelia Robotics](https://www.coppeliarobotics.com/)
+- [Marilou](http://www.anykode.com/marilou.php)
+- [Gazebo](http://gazebosim.org/)
+- [OpenAI Gym](https://gym.openai.com/)
+- [Robot Operating System (ROS)](https://www.ros.org/)
+
+#### MLAdy's Edge
+
+A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions, which is often limited in scope.
+
+
+![Confused Robot](images/confused-robot.png)
+
+MLAdy's scalable and retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as being more generally applicable. Deployment will be faster than other methods, as retrofitting tried-and-true vehicles and machinery already in use bypasses a large amount of development done by competition.
+
+![Tools for the Job](images/tools-for-the-job.png)
+
+MLAdy will not necessarily compete with other software platforms or frameworks, as the projects proposed framework is leaning more towards the realization and implementation of available technology - only developing solutions in-house if not available elsewhere. Other platforms will likely be of benefit as tools to make this possible. The project's goal is to make it as effective as possible to implement AI and robotics, not to create a standalone software suite.
+
+The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/), widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and should then be incorporated into MLAdy's own.
+
+MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as feedback from the open source community can improve the framework.
+
+Active participation by students at NMBU will be a priority given that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
+
+MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the colaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
+
+#### Threats
+
+As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
+
+![Pivots](images/pivots.png)
+![Mass Produced Robots](images/pricedrop.png)
+
+A generalized retrofit approach will not provide the same native access to sensors and controls as custom solutions, making fail-safes less accessible. This might require extensive experimentation to guarantee safe operation. On the other hand, the approach allows for quickly changing out hardware for safer alternatives (such as downscaled variants of the conventionally used hardware). 
+
 ## Method - Proof of Concept (Phase 2)
 
-The proof of concept consists of RC car agent detecting and driving to trash. The environment is a flat surface with one piece of trash visible to the agent.
-
-Training and inference is first simulated on a computer, before it is transferred to the real world. Further training is performed, and when car consistently reaches target efficiently on par with a human driver the proof of concept is deemed complete and a success.
+The proof of concept consists of RC car agent detecting and driving to trash. The environment is a surface with one piece of trash visible to the agent. Training and inference is first simulated on a computer, before it is transferred to the real world. 
 
 ![vision](images/simulation.jpg)
 <p align="center">
   <i>Trained RC car agents driving to detected trash in an early prototype simulation.</i>
 </p>
 
-Detailed steps and progress below:
+With the real world prototype, further training is performed, and when the agent consistently reaches the target on par with a human driver, the proof of concept is deemed complete and a success.
+
+![DonkeyCar](images/donkeycar.jpg)
+<p align="center">
+  <i>MLAdy's DonkeyCar for proof of concept training and inference in the real world.</i>
+</p>
+
+Detailed steps and progress below (**critical steps in bold**):
 
 - [x] Simulation
   - [x] Abstract* vehicle simulation  
@@ -528,6 +564,9 @@ Detailed steps and progress below:
         - [ ] Target position relative to vehicle
         - [ ] Vehicle orientation (relative to gravity)
         - [ ] Traversable area detection
+  - [x] **Successfully drive to target with simplified inputs**  
+  _Incomplete inputs, but the agent had 100% success rate in only minutes of training._
+  - [ ] **Successfully drive to target with complex inputs**
 - [ ] Transfer simulated learning to the real world
   - [x] Vehicle
     - [x] RC-car equipped with [NVIDIA Jetson Nano](https://developer.nvidia.com/EMBEDDED/jetson-nano-developer-kit) (based on [DonkeyCar](https://www.donkeycar.com/))
@@ -547,7 +586,7 @@ Detailed steps and progress below:
       - [ ] Traversable area detection
   - [x] Extract learned model for real word application
 - [ ] Train in the real world
-- [ ] Successfully detect and drive to trash
+- [ ] **Successfully detect and drive to trash**
 
 ### Evaluation and results
 
@@ -581,23 +620,23 @@ Development, experimentation and evaluation will be done for each prototype step
 
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used up until phase 5.
 
-1. MVP (Minimum Viable Product)  
+3. MVP (Minimum Viable Product)  
 2021 Q1-Q2  
 Goal: Extend features to perform a complete task (trash removal)
 
-1. Fleet prototype  
+4. Fleet prototype  
 2021 Q2-Q3  
 Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal interaction
 
-1. Scale vehicle size  
+5. Scale vehicle size  
 2021 Q4  
 Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
 
-1. Implementation project  
+6. Implementation project  
 2022 Q1-Q2  
 Goal: Successfully apply framework in a useful real life application
 
-1. Reflection and next-steps  
+7. Reflection and next-steps  
 2022 Q2  
 Goal: Document key findings throughout the project and propose possible next-steps
 
