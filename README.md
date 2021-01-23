@@ -70,9 +70,7 @@ As a bonus, if the task does not require full size vehicles, scaled down RC vari
 
 ![RC](images/rc.png)
 
-MLAdy's long-term vision is to be an AI- and robotics foundation intended for a multitude of use-cases.
-
-In the long run, applications may include (but are not limited to):
+MLAdy's long-term vision is to be an AI- and robotics foundation intended for multiple use-cases. In the long run, applications may include (but are not limited to):
 
 - Construction
 - Storage
@@ -383,11 +381,11 @@ _What is currently in use. Based on Unity and their new reinforcement learning f
 
 ### Real world tools
 
-Generally applicable and budget-oriented hardware and software is needed to be able to retrofit a wide variety of vehicles and machinery. As internal sensory input (joint positions, forces applied etc.) is challenging and complex when working with a wide variety of established vehicles, most inputs will be based on sensors that fit any form factor.
+Generally applicable and budget-oriented hardware and software is needed to be able to retrofit a wide variety of vehicles and machinery. Internal sensory input (joint positions, forces applied etc.) is challenging and complex when working with a wide variety of established vehicles.
 
 ![Complex Sensor input](images/complex-sensors.png)
 
-The end hardware solution is ideally one hub containing the majority of sensors, with as few extra nodes placed at critical positions on the vehicle in question.
+To negate this, most inputs will be based on sensors that can work with any form factor. The end hardware solution is ideally one hub containing the majority of sensors, with as minimal nodes placed at critical positions on the vehicle in question.
 
 ![](images/simple-sensors.png)
 
@@ -499,7 +497,6 @@ Robotic and AI software platforms and frameworks:
 
 A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions, which is often limited in scope.
 
-
 ![Confused Robot](images/confused-robot.png)
 
 MLAdy's scalable and retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as being more generally applicable. Deployment will be faster than other methods, as retrofitting tried-and-true vehicles and machinery already in use bypasses a large amount of development done by competition.
@@ -508,13 +505,13 @@ MLAdy's scalable and retrofitting approach makes robotics more accessible and lo
 
 MLAdy will not necessarily compete with other software platforms or frameworks, as the projects proposed framework is leaning more towards the realization and implementation of available technology - only developing solutions in-house if not available elsewhere. Other platforms will likely be of benefit as tools to make this possible. The project's goal is to make it as effective as possible to implement AI and robotics, not to create a standalone software suite.
 
-The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/), widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and should then be incorporated into MLAdy's own.
+The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/), widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and may be adopted by MLAdy.
 
 MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as feedback from the open source community can improve the framework.
 
 Active participation by students at NMBU will be a priority given that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
 
-MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the colaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
+MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the collaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
 
 #### Threats
 
