@@ -16,10 +16,10 @@ Temporary section overviewing what remains to be done.
 
 - [ ] Mentors
   - [ ] Academic mentors (at least one)
-    - [ ] [Simen Hesleskaug](https://www.nmbu.no/ans/simen.hesleskaug)
+    - [x] [Simen Hesleskaug](https://www.nmbu.no/ans/simen.hesleskaug)
     - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic)
     - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland)
-    - [ ] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
+    - [x] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
   - [ ] Commercial mentors (at least one)
     - [ ] Eirik Størdal
     - [ ] Henrik Presten
