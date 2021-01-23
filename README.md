@@ -385,7 +385,7 @@ Generally applicable and budget-oriented hardware and software is needed to be a
 
 ![Complex Sensor input](images/complex-sensors.png)
 
-To negate this, most inputs will be based on sensors that can work with any form factor. The end hardware solution is ideally one hub containing the majority of sensors, with as minimal nodes placed at critical positions on the vehicle in question.
+To negate this, most inputs will be based on sensors that can work with any form factor. The end hardware solution is ideally one hub containing the majority of sensors, with minimal nodes placed at critical positions on the vehicle in question.
 
 ![](images/simple-sensors.png)
 
