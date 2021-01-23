@@ -57,13 +57,13 @@ See `examples/` for example reports
 - [Limitations](#limitations)
 - [Project Implementation](#project-implementation)
   - [Team](#team)
-  - [University contributions](#university-contributions)
+  - [University Contributions](#university-contributions)
   - [Major Milestones](#major-milestones)
 - [Theory and Key Concepts](#theory-and-key-concepts)
 - [Technical Review](#technical-review)
   - [Simulation tools](#simulation-tools)
   - [Real world tools](#real-world-tools)
-    - [Vision (code - used in simulation and the real world)](#vision-code---used-in-simulation-and-the-real-world)
+    - [Vision](#vision)
 - [Method - Proof of Concept (Phase 2)](#method---proof-of-concept-phase-2)
   - [Evaluation and results](#evaluation-and-results)
 - [Budget (Phase 1-2)](#budget-phase-1-2)
@@ -322,7 +322,9 @@ The above table shows core members of MLAdy only, but MLAdy welcomes contributio
 - Simen Sjølie
   - Electrical guidance
 
-### University contributions
+MLAdy is currently in the process of recruiting two more developers and a person responsible for marketing and sales.
+
+### University Contributions
 
 <table>
   <tr>
@@ -351,18 +353,24 @@ The above table shows core members of MLAdy only, but MLAdy welcomes contributio
 
 Project start: 1. January 2021
 
-Based on stated goal and objectives, the project is divided into two phases (see [next-steps](#next-steps) for further development and phases).
+![Gant](images/gantt.png)
+
+The proof of concept must be a success for MLAdy continues development.
+
+![Gant PoC](images/gantt-poc.png)
+
+Based on stated goal and objectives, the proof of concept is divided into two phases (see [next-steps](#next-steps) for further development and phases).
 
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used for proof of concept.
 
-1. Gauge feasibility  
+1. Gauge feasibility of concept  
 2021 Q1  
 Goal: Create overview of existing technology and competition 
 
    - [x] Existing technology
    - [x] Competition
 
-1. Proof of concept  
+1. Develop proof of concept  
 2021 Q1  
 Goal: Prove that real world application can be achieved with abstracted simulated training
 
@@ -370,6 +378,8 @@ Goal: Prove that real world application can be achieved with abstracted simulate
    - [ ] Transfer to reality and successfully detect and drive to target
 
 At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done (see [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing).
+
+See [next-steps](#next-steps) for further development.
 
 ## Theory and Key Concepts
 
@@ -581,7 +591,7 @@ Vehicles
 
 *[HUINA](https://www.facebook.com/Huinatoys) is a budget RC-supplier [known in online RC-communities for offering solid budget options](https://www.youtube.com/watch?v=jVduwRKrdtM&t=1s).
 
-#### Vision (code - used in simulation and the real world)
+#### Vision
 
 Vision will be the most crucial part of the real world system, as it is the basis all other functionality is based on. As the solution should be scalable, cheap and effective, cameras are the only sensors.
 
@@ -707,13 +717,15 @@ So far, early testing and development has been a success. An end-to-end pipeline
 
 ### Next steps
 
-Immediately, the proof of concept should be finalized and documented. If it the trajectory continues and the second phase is deemed a success, the team can move on to the phase 3. 
+Immediately, the proof of concept should be finalized and documented. If it the trajectory continues and the second phase is deemed a success, the team can move on to following phases.
+
+![Gant Next-steps](images/gantt-next-steps.png)
 
 Development, experimentation and evaluation will be done for each prototype step (3-6), to promote pivoting as necessary. The most critical experiment will be an implementation with an industrial partner.
 
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used up until phase 5.
 
-3. MVP (Minimum Viable Product)  
+1. MVP (Minimum Viable Product)  
 2021 Q1-Q2  
 Goal: Extend features to perform a complete task (trash removal)
 
