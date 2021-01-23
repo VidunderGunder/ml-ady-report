@@ -6,7 +6,7 @@ Robotics and AI offers radical improvements in productivity, expenditure and saf
 
 MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and machinery in public and industrial applications, using a simulation and retrofitting approach with scalable complexity, scope and size.
 
-Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
+Early simulations of autonomous vehicles have been successful, major computer vision obstFacles have been overcome and real world hardware is soon to be tested.
 
 A pipeline to a market ready implementation is projected to be done before the end of 2022 Q2.
 
@@ -28,7 +28,7 @@ A pipeline to a market ready implementation is projected to be done before the e
     - [Vision (code - used in simulation and the real world)](#vision-code---used-in-simulation-and-the-real-world)
   - [Competition and similar offerings](#competition-and-similar-offerings)
     - [MLAdy's Edge](#mladys-edge)
-    - [Threats](#threats)
+    - [Threats and Pivots](#threats-and-pivots)
 - [Method - Proof of Concept (Phase 2)](#method---proof-of-concept-phase-2)
   - [Evaluation and results](#evaluation-and-results)
 - [Budget (Phase 1-2)](#budget-phase-1-2)
@@ -515,7 +515,7 @@ Active participation by students at NMBU will be a priority given that the first
 
 MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the collaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
 
-#### Threats
+#### Threats and Pivots
 
 As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
 
