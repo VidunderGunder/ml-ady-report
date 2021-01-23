@@ -54,7 +54,9 @@ See `examples/` for example reports
 - [Limitations](#limitations)
 - [Project Implementation](#project-implementation)
   - [Team](#team)
+  - [Mentors](#mentors)
   - [University Contributions](#university-contributions)
+  - [Commercial Partners](#commercial-partners)
   - [Major Milestones](#major-milestones)
 - [Theory and Key Concepts](#theory-and-key-concepts)
 - [Technical Review](#technical-review)
@@ -321,6 +323,41 @@ The above table shows core members of MLAdy only, but MLAdy welcomes contributio
 
 MLAdy is currently in the process of recruiting two more developers and a person responsible for marketing and sales.
 
+### Mentors
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Contribution</th>
+    <th>Workplace/Institution</th>
+  </tr>
+  <tr>
+    <td>Simen Hesleskaug</td>
+    <td>Academic</td>
+    <td>Brainstorming and general project guidance</td>
+    <td>NMBU</td>
+  </tr>
+  <tr>
+    <td>Kristian Omberg</td>
+    <td>Academic</td>
+    <td>Network and start-up experience</td>
+    <td>NMBU</td>
+  </tr>
+  <tr>
+    <td>Eirik Størdal</td>
+    <td>Commercial</td>
+    <td>Industrial production contact</td>
+    <td>Trelleborg Offshore Norway</td>
+  </tr>
+  <tr>
+    <td>Henrik Presten</td>
+    <td>Commercial</td>
+    <td>Experienced entrepreneur</td>
+    <td>Sildr, Ren Reklame</td>
+  </tr>
+</table>
+
 ### University Contributions
 
 <table>
@@ -343,6 +380,19 @@ MLAdy is currently in the process of recruiting two more developers and a person
   <tr>
     <td>Academic community</td>
     <td>NMBU has a diverse set of relevant academic communities in disciples such as robotics, data science, programming, electronics and more</td>
+  </tr>
+</table>
+
+### Commercial Partners
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Contribution</th>
+  </tr>
+  <tr>
+    <td>Trelleborg Offshore Norway</td>
+    <td>Trelleborg will act as a pilot customer for a real world implementation</td>
   </tr>
 </table>
 
