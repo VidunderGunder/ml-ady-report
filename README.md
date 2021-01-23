@@ -66,7 +66,7 @@ Take farm and construction vehicles for example; they are mass produced and wide
 
 ![Scalable Retrofitted Autonomy](images/dev-equation.png)
 
-As a bonus, if the task does not require full size vehicles, scaled down RC variants can be used. They are lot safer to develop and deploy than heavy machinery. The other way around? Not a problem - a generalized reinforcement learning approach will work just as well with custom hardware facing highly complex tasks. This way, MLAdy proposes a way to scale complexity on demand.
+As a bonus, if the task does not require full size vehicles, scaled down RC variants can be used. They are lot safer to develop and deploy than heavy machinery. Additionally, the generalized approach will work just as well with custom hardware facing highly complex tasks. This way, MLAdy proposes a way to scale complexity on demand.
 
 ![RC](images/rc.png)
 
@@ -152,7 +152,7 @@ Further limiting this, a proof of concept is proposed: Simulating a vehicle able
 
 ![Proof of Concept](images/poc.png)
 
-This is to quickly test if the technology is ready and the approach is achievable. If this is a success, the project may be continued on a trajectory proposed in [next-steps](#next-steps).
+This is to quickly test if the technology is ready and the approach is achievable. If successful, the project may be continued on a trajectory proposed in [next-steps](#next-steps).
 
 ## Project Implementation
 
