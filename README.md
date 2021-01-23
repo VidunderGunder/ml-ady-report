@@ -328,7 +328,7 @@ Usually an agent is conceptualized as the entire vehicle, but to illustrate MLAd
 
 ![Agent](images/agent-brain.png)
 
-An agent trained with homogenous environments and features, will only handle a limited set of tasks, and respond badly to new situations.
+An agent trained with homogenous environments and features, will only handle a limited set of tasks and respond badly to new situations.
 
 ![Homogenous Training](images/homogenous-training.png)
 
@@ -503,7 +503,9 @@ MLAdy's scalable and retrofitting approach makes robotics more accessible and lo
 
 ![Tools for the Job](images/tools-for-the-job.png)
 
-MLAdy will not necessarily compete with other software platforms or frameworks, as the projects proposed framework is leaning more towards the realization and implementation of available technology - only developing solutions in-house if not available elsewhere. Other platforms will likely be of benefit as tools to make this possible. The project's goal is to make it as effective as possible to implement AI and robotics, not to create a standalone software suite.
+If a full size vehicle is not needed, MLAdy offers the benefit of using RC-variants of a suited vehicle for the job.
+
+MLAdy will not compete with other software platforms or frameworks, as they will be used as tools. The project's goal is to implement AI and robotics, not to create a standalone software suite.
 
 The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/), widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and may be adopted by MLAdy.
 
