@@ -777,8 +777,7 @@ All phases will benefit greatly from funding, as a multitude of vehicles and equ
   _Some of MLAdy's core members has already contacted their workplace regarding testing at their factory facilities. The contact person likes the idea and will likely propose an implementation when MLAdy is ready._
   - [ ] Formulate detailed plan for implementation
   - [ ] Implement
-- [ ] Documentation (Phase 7)  
-_As the time-frame for documentation coincides with the core team's final semester, this project may be a possible subject for a master's thesis should they still be involved._
+- [ ] Documentation (Phase 7)
   - [ ] Key findings
   - [ ] Next-steps
 
