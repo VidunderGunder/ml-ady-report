@@ -228,22 +228,22 @@ In order to develop such a framework, the following objectives and activities mu
 - Theoretical framework and technical review
   - Identify key theoretical concepts in order to establish foundational knowledge
   - Research phase for establishing the framework
-    - Identify key research work
+    - Identify key concepts and relevant research
     - Technical review
       - Identify key experimental work and data
       - Obtain an overview of existing platforms
-      - Establish key framework components
+      - Establish framework components
       - Identify framework constraints
-  - Summary suggesting way forward
+  - Proposal of initial framework
 - Develop platform 
   - Prototypes
     - PoC (proving end-to-end feasibility of framework)
     - MVP (single vehicle)
     - MVP Fleet (multiple vehicles)
-    - MVP Fleet (multiple vehicles)
+    - Scale to full size vehicle
 - Evaluate framework
   - Design and plan out experiment
-  - Experimental validation of framework
+  - Validate framework
   - Gauge commercial interest of application of framework
 - Recommendations and conclusion
   - Possible improvements
