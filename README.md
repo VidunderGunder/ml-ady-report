@@ -326,7 +326,7 @@ Data is obtained with sensors, processed by a composition of neural nets and per
 
 The core of MLAdy is the processing. Processing is done by an agent. The proof of concept is limited to one agent, who is only capable of finding and traversing to trash. 
 
-Usually an agent is conceptualized as the entire vehicle, but to illustrate MLAdy's approach, a blue mascot is used to make it clear that the agent is a driver or operator that can handle a multiple different vehicles (the design is an homage to the [agents used in Unity's basic examples for ML Agents](https://github.com/Unity-Technologies/ml-agents)).
+Usually an agent is conceptualized as the entire vehicle, but to illustrate MLAdy's approach, a blue mascot is used to make it clear that the agent is a driver or operator that can handle a multiple different vehicles (the design is an homage to the [box agents used in Unity's basic examples for ML Agents](https://github.com/Unity-Technologies/ml-agents)).
 
 ![Agent](images/agent-brain.png)
 
@@ -357,7 +357,7 @@ With a well defined abstraction injected with noise, randomization and variation
 </p>
 
 <p align="center">
-  <i>Simulated generic RC car with adjustable features</i>
+  <i>Simulated generic RC car with adjustable features including weight, center of gravity, drag, friction, springs, dimensions, power to independent wheels and more (design is an homage to ML Agents' box characters by Unity)</i>
 </p>
 
 MLAdy has defined three possible toolsets for simulation:
