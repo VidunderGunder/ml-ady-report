@@ -6,7 +6,7 @@ Robotics and AI offers radical improvements in productivity, expenditure and saf
 
 MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and machinery in public and industrial applications, using a simulation and retrofitting approach with scalable complexity, scope and size.
 
-Early simulations of autonomous vehicles have been successful, major computer vision obstFacles have been overcome and real world hardware is soon to be tested.
+Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
 
 A pipeline to a market ready implementation is projected to be done before the end of 2022 Q2.
 
