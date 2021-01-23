@@ -338,7 +338,7 @@ That's why AI developers tend to challenge their agents with a range of scenario
 
 This approach automatically prepares the agent for unforeseen consequences as well, such as flat tires and missing or stuck parts. 
 
-Simulation is only valuable if applicable in real world scenarios, so simulated and real systems must be designed to compliment the same network of neural nets. If simulated training is applicable for the downscaled RC-car used in the proof of concept, the same model could be used on a one-to-one scale vehicle with some further transfer training.
+Simulation is only valuable if applicable in real world scenarios, so simulated and real systems must be designed to compliment similar composition of neural nets. If simulated training is applicable for the downscaled RC-car used in the proof of concept, the same model could be used on a one-to-one scale vehicle with some further transfer training.
 
 ![Transfer Learning to Real World](images/scale.png)
 
