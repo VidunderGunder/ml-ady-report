@@ -8,7 +8,7 @@ MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and m
 
 Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
 
-A pipeline to market ready implementation is projected to be done by the end of 2021 Q4.
+A market ready implementation is projected to be done by the end of 2021 Q4.
 
 ## TODO <!-- omit in toc -->
 
