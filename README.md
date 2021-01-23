@@ -17,12 +17,12 @@ Temporary section overviewing what remains to be done.
 - [ ] Mentors
   - [ ] Academic mentors (at least one)
     - [x] [Simen Hesleskaug](https://www.nmbu.no/ans/simen.hesleskaug)
-    - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic)
-    - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland)
+    - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic) (awaiting response)
+    - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland) (awaiting response)
     - [x] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
   - [ ] Commercial mentors (at least one)
-    - [ ] Eirik Størdal
-    - [ ] Henrik Presten
+    - [ ] Eirik Størdal (awaiting response)
+    - [x] Henrik Presten
 - [ ] Realization strategy
   - [ ] Position in value chain
   - [ ] Business model
@@ -265,11 +265,11 @@ This is to quickly test if the technology is ready and the approach is achievabl
 
 ## Project Implementation
 
-The team driving MLAdy consists of engineering students at NMBU, who are all on their second to final year of their master's degree.
+The path to a commercially viable application is projected to take one year. Execution is done by a team of students at NMBU.
 
 ### Team
 
-The core team is made up of engineering students and tech enthusiasts at NMBU, engaged in disciplines ranging from mechanical and electrical engineering to application development and data science. All members are active participants of a student organization [Eik Lab](https://www.nmbu.no/aktuelt/node/41024) (previously known as Eik Idéverksted), who recently became an official part of NMBU. It is the University's hub of student innovation, with a long track-record of pioneering and cutting edge technology projects.
+The core team is made up of engineering students and tech enthusiasts at NMBU, engaged in disciplines ranging from mechanical and electrical engineering to application development and data science. All members are on their second to final year of their master's degree All members are active participants of a student organization [Eik Lab](https://www.nmbu.no/aktuelt/node/41024) (previously known as Eik Idéverksted), who recently became an official part of NMBU. This is the University's hub for student innovation, with a long track-record of pioneering and cutting edge technology projects.
 
 <table>
   <tr>
