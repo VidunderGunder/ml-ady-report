@@ -22,7 +22,7 @@ Temporary section overviewing what remains to be done.
     - [ ] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
   - [ ] Commercial mentors (at least one)
     - [ ] Eirik Størdal
-    - [ ] Henrik Prestmo
+    - [ ] Henrik Presten
 - [ ] Realization strategy
   - [ ] Position in value chain
   - [ ] Business model
@@ -355,7 +355,7 @@ Project start: 1. January 2021
 
 ![Gant](images/gantt.png)
 
-The proof of concept must be a success for MLAdy continues development.
+The proof of concept must be a success for MLAdy to continue development.
 
 ![Gant PoC](images/gantt-poc.png)
 
