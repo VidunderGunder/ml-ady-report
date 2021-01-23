@@ -36,12 +36,9 @@ Temporary section overviewing what remains to be done.
     - [ ] Revenue streams
 - [ ] Rights and licenses
 
-Resources for delivery criteria:
-
 [STUD-ENT application criteria](https://www.forskningsradet.no/utlysninger/2021/studententreprenorskap/)
 
 See `examples/` for example reports
-
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -62,8 +59,8 @@ See `examples/` for example reports
 - [Theory and Key Concepts](#theory-and-key-concepts)
 - [Technical Review](#technical-review)
   - [Simulation tools](#simulation-tools)
-  - [Real world tools](#real-world-tools)
-    - [Vision](#vision)
+  - [Hardware](#hardware)
+  - [Vision](#vision)
 - [Method - Proof of Concept (Phase 2)](#method---proof-of-concept-phase-2)
   - [Evaluation and results](#evaluation-and-results)
 - [Budget (Phase 1-2)](#budget-phase-1-2)
@@ -544,7 +541,7 @@ _What is currently in use. Based on Unity and their new reinforcement learning f
   - Blender (3D-modelling, free open-source)
   - Fusion 360 (3D-modelling, free student license)
 
-### Real world tools
+### Hardware
 
 Generally applicable and budget-oriented hardware and software is needed to be able to retrofit a wide variety of vehicles and machinery. Internal sensory input (joint positions, forces applied etc.) is challenging and complex when working with a wide variety of established vehicles.
 
@@ -591,7 +588,7 @@ Vehicles
 
 *[HUINA](https://www.facebook.com/Huinatoys) is a budget RC-supplier [known in online RC-communities for offering solid budget options](https://www.youtube.com/watch?v=jVduwRKrdtM&t=1s).
 
-#### Vision
+### Vision
 
 Vision will be the most crucial part of the real world system, as it is the basis all other functionality is based on. As the solution should be scalable, cheap and effective, cameras are the only sensors.
 
