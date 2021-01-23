@@ -40,6 +40,8 @@ Resources for delivery criteria:
 
 [STUD-ENT application criteria](https://www.forskningsradet.no/utlysninger/2021/studententreprenorskap/)
 
+See `examples/` for example reports
+
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -160,10 +162,9 @@ Robotic and AI software platforms and frameworks:
 Competitors offering retrofit systems:
 
 - [Built Robotics](http://www.builtrobotics.com/)  
-Same principles as MLAdy, but selling entire retrofitted vehicles, not just the retrofit. Also offers training to engineers. 
+Same principles as MLAdy, but offering entire retrofitted vehicles, not a retrofit as a service. Also offers training to engineers. 
 - [Perrone Robotics](https://www.perronerobotics.com/)  
 Retrofit kits for defined zone transit.
-- 
 
 ### MLAdy's Edge
 
