@@ -533,7 +533,7 @@ The proof of concept consists of RC car agent detecting and driving to trash. Th
   <i>Trained RC car agents driving to detected trash in an early prototype simulation.</i>
 </p>
 
-With the real world prototype, further training is performed, and when the agent consistently reaches the target on par with a human driver, the proof of concept is deemed complete and a success.
+Further training is performed with the real world prototype. When the agent consistently reaches the target on par with a human driver, the proof of concept is deemed complete and a success.
 
 ![DonkeyCar](images/donkeycar.jpg)
 <p align="center">
