@@ -18,8 +18,8 @@ Temporary section overviewing what remains to be done.
     - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic) (awaiting response)
     - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland) (awaiting response)
     - [x] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
-  - [ ] Commercial mentors (at least one)
-    - [ ] Eirik Størdal (awaiting response)
+  - [x] Commercial mentors (at least one)
+    - [X] Eirik Størdal (awaiting response)
     - [x] Henrik Presten
 - [ ] Market
   - [ ] Numbers, concrete examples and stuff
