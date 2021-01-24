@@ -86,6 +86,7 @@ See `examples/` for example reports
     - [Budget (Phase 4-7)](#budget-phase-4-7)
 - [Rights and Licenses](#rights-and-licenses)
   - [Intelligent property](#intelligent-property)
+  - [Privacy](#privacy)
   - [Key licenses currently in use](#key-licenses-currently-in-use)
 
 ## Abbreviations
@@ -98,6 +99,7 @@ See `examples/` for example reports
 - NMBU: Norwegian University of Life Sciences (Norges Miljø- og Biovitenskapelige Universitet)
 - PLM: Product lifecycle management
 - CAD: Computer-aided design
+- GDPR: General Data Protection Regulation
 
 ## Background
 
@@ -223,6 +225,11 @@ MLAdy hopes to reduce the difficulty of implementation to a level where it can h
 
 **Autonomy by vehicle manufacturers**: Some manufacturers have begun introducing autonomy in newer vehicles. MLAdy can work on market segments slow to adopt change or retrofit old vehicles to reduce waste, but these are likely fading opportunities. A more sustainable approach as the retrofit market closes, may be developing technology in cooperation with the manufacturers.
 
+
+**If all else fails...**
+
+If the project is not a commercial success, the competence and know-how can be transferred to other students, projects and university courses.
+
 ### Benefit to Society and Sustainability
 
 **Possible upsides**:
@@ -235,6 +242,7 @@ MLAdy hopes to reduce the difficulty of implementation to a level where it can h
 + Creation of high-skilled jobs
 + High-tech open source code and methods
 + Synergic research projects with other disciplines at NMBU (other universities down the line)
++ Foundation for course material at NMBU
 
 **Possible downsides**:
 
@@ -742,9 +750,9 @@ Perception is based mainly on camera input. The pipeline being developed by MLAd
     - Construct virtual 3D map of traversable area with depth (relative to the vehicle)
   - Locate trash
     - Object detection  
-    _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware._
+    _MLAdy has trained a custom trash detector with a processing time as low as 2ms, depending on hardware. Trained with the open [Trash Annotations in Context](http://tacodataset.org/) on [YOLOv5](https://github.com/ultralytics/yolov5) with cloud computing. The pipeline supports additional datasets, should precision requirements increase or recycling be introduced._
     - Extract depth of object
-    - Create vector of target location (relative to the vehicle)
+    - Create vectors of target location (relative to the vehicle)
 
 Initially the model's input will be a flattened vector consisting of all gyroscope/accelerometer data, traversable areas and target location. It then outputs how to move the vehicle to achieve its current goal.
 
@@ -819,9 +827,13 @@ Detailed steps and progress below (**critical steps in bold**):
 
 Criteria for success is that the agent can detect, drive towards and stop directly in front of a target.
 
-Simulation training showed that the simplified input vector of relative position to target and agent orientation was enough for the agent to successfully drive to a randomly spawned trash object with a 100% success rate.
+Simulation training showed that a *simplified input vector of relative position to the target* together with *orientation of the agent* was enough for the agent to successfully drive to a randomly spawned trash object with a 100% success rate.
 
-For real world tests, it is required that the simulated model is usable as a starting point for real world training and that the mental model performs similarly in simulation and reality (or is handled equally well by the agent in both cases). That remains to be seen.
+This means a camera and gyroscope is sufficient for the current task.
+
+For real world tests, it is required that the simulated model is usable as a starting point for real world training and that the mental model performs similarly in simulation and reality (or is handled equally well by the agent in both cases).  
+
+That remains to be tested.
 
 ## Budget (Phase 1-2)
 
@@ -951,13 +963,43 @@ Budgets for remaining phases should be decided when seeking further funding, as 
 
 ## Rights and Licenses
 
+MLAdy's worth will primarily be based in a developed framework. Components of competitive value should be closed source, to give MLAdy an edge over competition.
+
 
 
 ### Intelligent property
 
+Key intelligent properties of MLAdy are the codebase, trained models and data. Initially, the value of each will in descending order be: 
 
+1. Codebase
+2. Trained models
+3. Data
+
+Long term, the acquired data will increase in value as the amount and quality goes up, while the method itself will be easier to copy with time. This will eventually flip the order to:
+
+1. Data
+2. Trained models
+3. Codebase
+
+Currently, all code and resources are hosted on GitHub, with read-access to everyone. [This implies all rights reserved by default](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository#choosing-the-right-license) and allows for easy sharing as the project is starting up. Key pieces with competitive value will eventually be closed off, to protect MLAdy from competitors. This will include (but is not limited to):
+
+- Simulation environments
+- Vehicle abstractions
+- Reinforcement models
+- Classification models
+- Vision composition
+- Methods (e.g. retrofitting and training procedures)
+
+### Privacy
+
+By using an abstract perception of the world with the mental model to train agents, all personal information can be filtered out. This enables the algorithms to respect [principles proposed by the GDPR](https://gdpr.eu/article-5-how-to-process-personal-data/), removing any sensitive information. 
+That way, all data relevant to training can be stored for later use, without giving up performance.
+
+Any models needed for human detection, or other possibly sensitive operations, will be based on available anonymous data or pre-training.
 
 ### Key licenses currently in use
+
+Tools and software with free and open licenses, or alternatively licenses for students or personal use, are favored by MLAdy. This reduces cost and paperwork, keeps the possibility of open-source contributions open and reduces friction for new developers and students. 
 
 Licenses that allow for free commercial use are marked with `(Free)`, and similarly the ones requiring payment are marked with `(Paid)`. 
 
@@ -986,7 +1028,7 @@ So far, the abstraction approach is working well within Unity, and precise model
 **Visual Studio** (Free/Paid)  
 Microsoft allows commercial use of Visual Studio for individuals, but organizations require a paid subscription, according to their [license](https://visualstudio.microsoft.com/license-terms/mlt553321/).
 
-Some members use Visual Studio intermittently, but the software is being phased out and replaced by Visual Studio Code.
+Some team members use Visual Studio intermittently, but the software is being phased out and replaced by Visual Studio Code.
 
 **VSCode or Visual Studio Code** (Free)  
 Microsoft allows commercial use of Visual Studio Code, according to their [license](https://code.visualstudio.com/license).
@@ -1008,3 +1050,6 @@ Microsoft allows commercial use of Visual Studio Code, according to their [licen
 
 **AdaBins** (Free)  
 [AdaBins GNU GPLv3-license](https://github.com/shariqfarooq123/AdaBins/blob/main/LICENSE)
+
+**GitHub** (Free)  
+GitHub offers a sufficient [free tier](https://github.com/pricing) for teams and organizations
