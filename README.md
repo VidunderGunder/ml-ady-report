@@ -107,7 +107,7 @@ The idea for MLAdy was born out of a discussion regarding automation of existing
 
 ![Idea](images/idea.png)
 
-Lacking in available technology and competence, the project was put on hold, and the members went on to other projects. Recent advancements in reinforcement learning and computer vision, and radical development in the team's skills, now enables the creation of a generalized framework for quick robotics and AI prototyping. With a base of well-thought-out principles for scalability, MLAdy aims to facilitate the use robotics in a wide variety of areas.
+Lacking in available technology and competence, the project was put on hold, and the members went on to other projects. Recent advancements in reinforcement learning and computer vision, accompanied by broadening and improvement of the team's skillset, now enables the creation of a generalized framework for quick robotics and AI prototyping. With a base of well-thought-out principles for scalability, MLAdy aims to facilitate the use robotics in a wide variety of areas.
 
 ![Expensive Development Equation](images/dev-equation-competition.png)
 ![Expensive Development](images/expensive.png)
@@ -531,9 +531,9 @@ For commercial application, contact with original vehicle manufacturers may make
 
 #### Customer segments
 
-MLAdy aims for diversified customer base. As available resources currently allow for only one type of implementation, logistics in industrial production will be first. 
+MLAdy aims for diversified customer base. As available resources limits the team to one type of implementation, logistics in industrial production will be handled  first. 
 
-A diverse approach will force development to consider a wider selection of use-cases, than a specific niche. A broader scope will compliment the general solution MLAdy proposes.
+A diverse approach will force development to consider a wider selection of use-cases, than limiting the solution to a specific niche. A broader scope is synergic with the general solution MLAdy proposes.
 
 #### Channels
 
@@ -547,11 +547,11 @@ Installation will happen in close contact with the client, while maintenance and
 
 #### Cost structure
 
-MLAdy's cost structure is primarily cost driven. Prioritizing scalability and generalization over cheaper quick-fixes to build a competitive advantage.
+MLAdy's cost structure is primarily cost driven. Prioritizing scalability and generalization over immediately  quick-fixes to build a competitive advantage.
 
 #### Revenue streams
 
-
+Revenue will consist of initial payment of implementation, followed by a period based upkeep subscription. Consultation, upgrades and maintenance are done on demand.
 
 
 
@@ -614,7 +614,7 @@ A form of composition, where multiple machine learning models can be connected t
 
 **Computer Vision**
 
-Using sensory input (often for some wavelength - camera, lidar, radar) to perceive. Concept can be extended to producing a mental model or map.
+Using sensory input (often for some wavelength - camera, lidar, radar) to perceive. The concept can include the creation of a mental model (or map) of an environment.
 
 A mental model may be useful for reinforcement learning agents, as it provides a deeper understanding of inputs and outputs, as well as a better foundation for developers to assign rewards and other logic.
 
