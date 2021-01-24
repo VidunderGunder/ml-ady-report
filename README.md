@@ -69,6 +69,7 @@ See `examples/` for example reports
     - [Customer relationships](#customer-relationships)
     - [Cost structure](#cost-structure)
     - [Revenue streams](#revenue-streams)
+  - [Pricing](#pricing)
 - [Theory and Key Concepts](#theory-and-key-concepts)
 - [Technical Review](#technical-review)
   - [Simulation tools](#simulation-tools)
@@ -469,11 +470,23 @@ At the time of writing, feasibility study is completed, while the proof of conce
 
 MLAdy positions itself between existing vehicle manufacturers and industrial actors, modifying the vehicles to create value by removing the need for human interaction with heavy machinery and physical labor with associated health risks.
 
-![Value chain]()
-
 A position contingent on final goods may typically be categorized as unstable or weak, as it is entirely dependent on all previous points in the value chain. However, MLAdy's applicable scope is spread across multiple industries, allowing for pivoting without sacrificing prior investments.
 
-As the gap between use of legacy vehicles and modern robotics closes, MLAdy could stay in the same position in the value chain and find a niche, extend backwards in the chain or offer consulting to other actors.
+![Value chain](images/valuechain.png)
+
+The position adds three new intermediate steps to the value chain between vehicle manufacturers and industrial companies:
+
+1. Autonomy development
+2. Autonomy installation
+3. Fleet orchestration
+
+As the gap between use of legacy vehicles and modern robotics closes, the value of retrofitting will fade and MLAdy has several options to adjust:
+
+- Stay in the same three steps in the value chain and find a niche segment
+- Change operation to only include on of the new steps (where MLAdy has the most competitive advantage at the time)
+- Becoming a complete robotics company by extending backwards in the chain
+
+It is likely that these three steps will be adopted by most vehicle manufacturers, so building rapport with the suppliers to prepare for a joint venture or pivot may be a good idea.
 
 ### Business model
 
@@ -536,7 +549,9 @@ MLAdy's cost structure is primarily cost driven. Solid system architecture is pr
 
 Revenue will consist of initial payment of implementation, followed by a period based upkeep subscription. Consultation, upgrades and maintenance are done on demand.
 
+### Pricing
 
+Pricing can not be properly estimated until the commercial pilot project (phase 6) is completed. Material costs will be negligible compared to the implementation. Price estimates will be included in the final documentation.
 
 ## Theory and Key Concepts
 
