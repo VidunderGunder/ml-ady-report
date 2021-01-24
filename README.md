@@ -19,7 +19,7 @@ Temporary section overviewing what remains to be done.
     - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland) (awaiting response)
     - [x] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
   - [x] Commercial mentors (at least one)
-    - [X] Eirik Størdal (awaiting response)
+    - [X] Eirik Størdal
     - [x] Henrik Presten
 - [ ] Market
   - [ ] Numbers, concrete examples and stuff
