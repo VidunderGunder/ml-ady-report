@@ -34,7 +34,7 @@ Temporary section overviewing what remains to be done.
     - [ ] Resources
     - [ ] Cost structure
     - [ ] Revenue streams
-- [ ] Rights and licenses
+- [x] Rights and licenses
 
 [STUD-ENT application criteria](https://www.forskningsradet.no/utlysninger/2021/studententreprenorskap/)
 
