@@ -107,7 +107,7 @@ The idea for MLAdy was born out of a discussion regarding automation of existing
 
 ![Idea](images/idea.png)
 
-Lacking in available technology and competence, the project was put on hold, and the members went on to develop other technologies. Recent advancements in reinforcement learning and computer vision, and radical development in the team's skills, now enables the creation of a generalized framework for quick robotics and AI prototyping. With a base of well-thought-out principles for scalability, MLAdy aims to facilitate the use robotics in a wide variety of areas.
+Lacking in available technology and competence, the project was put on hold, and the members went on to other projects. Recent advancements in reinforcement learning and computer vision, and radical development in the team's skills, now enables the creation of a generalized framework for quick robotics and AI prototyping. With a base of well-thought-out principles for scalability, MLAdy aims to facilitate the use robotics in a wide variety of areas.
 
 ![Expensive Development Equation](images/dev-equation-competition.png)
 ![Expensive Development](images/expensive.png)
