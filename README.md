@@ -515,6 +515,11 @@ MLAdy positions itself between existing vehicle manufacturers and industrial act
 
 _Note: If no source is cited, definition is formulated by the core team._
 
+**Abstraction**
+
+Core or idea of something.  
+Representation of general features or common denominators for a category or group. 
+
 **Artificial Intelligence**
 
 [**Investopedia** defines artificial intelligence as follows](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp#:~:text=Artificial%20intelligence%20(AI)%20refers%20to,as%20learning%20and%20problem%2Dsolving.): 
@@ -849,11 +854,11 @@ All components needed can be found at Eik Lab's workshop and borrowed elsewhere.
 
 ## Conclusion and Recommendations
 
-So far, early testing and development has been a success. An end-to-end pipeline proving the assumptions generalized abstracted simulation is almost complete.  with some real world tests left to be done.
+So far, early testing and development has been a success. An end-to-end pipeline proving the assumptions generalized abstracted simulation is almost complete,  with some real world tests left to be done.
 
 ### Next steps
 
-Immediately, the proof of concept should be finalized and documented. If it the trajectory continues and the second phase is deemed a success, the team can move on to following phases.
+Immediately, the proof of concept should be finalized and documented. If it is deemed a success, the team should move on to the following phases.
 
 ![Gant Next-steps](images/gantt-next-steps.png)
 
