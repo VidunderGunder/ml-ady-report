@@ -6,7 +6,7 @@ Robotics and AI offers radical improvements in productivity and safety, but the 
 
 Bridging the gap between legacy hardware and modern robotics, MLAdy offers a budget-friendly way to autonomize existing vehicles, using simulation and retrofitting with scalable size, scope and complexity. 
 
-Early simulations have been successful and real world hardware is soon to be tested. A commercial implementation is projected to be completed by the end of 2021 Q4.
+Early simulations have been successful and real world hardware is soon to be tested. A commercial implementation is projected to be completed by the end of Q4 2021.
 
 ## TODO <!-- omit in toc -->
 
@@ -444,14 +444,14 @@ Based on stated goals and objectives, the proof of concept is divided into two p
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used for proof of concept.
 
 1. Gauge feasibility of concept  
-2021 Q1  
+Q1 2021  
 Goal: Create overview of existing technology and competition 
 
    - [x] Existing technology
    - [x] Competition
 
 1. Develop proof of concept  
-2021 Q1  
+Q1 2021  
 Goal: Prove that real world application can be achieved with abstracted simulated training
 
    - [ ] Simulation
@@ -865,23 +865,23 @@ Development, experimentation and evaluation will be done for each prototype step
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used up until phase 5.
 
 1. MVP (Minimum Viable Product)  
-2021 Q1-Q2  
+Q1 2021  
 Goal: Extend features to perform a complete task (trash removal)
 
 4. Fleet prototype  
-2021 Q2-Q3  
+Q2 2021  
 Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal interaction
 
 5. Scale vehicle size  
-2021 Q4  
+Q3 2021  
 Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
 
 6. Implement with commercial partner  
-2022 Q1-Q2  
+Q3-Q4 2021  
 Goal: Successfully apply framework in a useful real life application
 
 7. Reflection and next-steps  
-2022 Q2  
+Q4 2021  
 Goal: Document key findings throughout the project and propose possible next-steps
 
 All phases will benefit greatly from funding, as a multitude of vehicles and equipment is needed.
