@@ -459,7 +459,7 @@ Goal: Prove that real world application can be achieved with abstracted simulate
    - [ ] Simulation
    - [ ] Transfer to reality and successfully detect and drive to target
 
-At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done. See [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing and [next-steps](#next-steps) for further development.
+At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done. See [method](#method---proof-of-concept-phase-2) for detailed steps and progress and [next-steps](#next-steps) for further development.
 
 ## Realization Strategy
 
