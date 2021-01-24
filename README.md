@@ -48,7 +48,7 @@ See `examples/` for example reports
 - [Market](#market)
   - [Competition and similar offerings](#competition-and-similar-offerings)
   - [MLAdy's Edge](#mladys-edge)
-  - [Threats and Pivots](#threats-and-pivots)
+  - [Challenges](#challenges)
   - [Benefit to Society and Sustainability](#benefit-to-society-and-sustainability)
 - [Goals and Objectives](#goals-and-objectives)
 - [Limitations](#limitations)
@@ -184,7 +184,7 @@ Retrofit kits for defined zone transit.
 
 ### MLAdy's Edge
 
-A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions, which is often limited in scope.
+**Accessibility:** A common denominator for the aforementioned robotics corporations are their custom, expensive and inaccessible solutions, which is often limited in scope.
 
 ![Confused Robot](images/confused-robot.png)
 
@@ -192,21 +192,23 @@ MLAdy's scalable and retrofitting approach makes robotics more accessible and lo
 
 ![Tools for the Job](images/tools-for-the-job.png)
 
-If a full size vehicle is not needed, MLAdy offers the benefit of using RC-variants of a suited vehicle for the job.
+**Scalability:** If a full size vehicle is not needed, MLAdy offers the benefit of using RC-variants of a suited vehicle for the job, or other available hardware.
 
-By retrofitting vehicles, MLAdy assists businesses in their product lifecycle management (PLM), by extending the life of current vehicles. This will smoothen out a shift towards autonomous robots, while reducing waste.
+**PLM:** By retrofitting vehicles, MLAdy assists businesses in their product lifecycle management (PLM), by extending the life of current vehicles. This will smoothen out a shift towards autonomous robots, while reducing waste.
+
+**Compared to other retrofitters:** The other suppliers of similar retrofitting solutions are based far from Norway and have limited capacity. The typical approach is selling an entire vehicle or kit, which either does nothing for PLM or is hard to implement.
 
 MLAdy will not compete with other software platforms or frameworks, as they will be used as tools. The project's goal is to implement AI and robotics, not to create a standalone software suite.
 
-The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/). These are widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and may be adopted by MLAdy.
+**Compared to other frameworks:** The closest available alternatives to MLAdy's proposed framework may be [ROS](https://www.ros.org/) and [PyRobot](https://pyrobot.org/). These are widely used frameworks for making software relating to robots. MLAdy's framework will offer a more opinionated approach, prioritizing retrofitting, intuition and easy-of-use. Aspects of both frameworks may simplify some aspects down the line, and may be adopted by MLAdy.
 
-MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as feedback from the open source community can improve the framework. This decision will be guided by a decision analysis, to make sure the move will strengthen MLAdy's competitive advantage
-
-Active participation by students at NMBU will be a priority when and if that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
+**Student engagement:** Active participation by students at NMBU will be a priority when and if that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
 
 MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the collaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
 
-### Threats and Pivots
+**Openness (maybe):** MLAdy might offer parts of its resources to the community down the line (like Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)), as feedback from the open source community could improve the framework. This decision will be guided by a decision analysis, to make sure the move will strengthen MLAdy's competitive advantage, and will not happen until MLAdy has a healthy revenue stream.
+
+### Challenges
 
 **Cheaper robotics:** As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
 
