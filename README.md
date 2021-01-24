@@ -93,7 +93,7 @@ See `examples/` for example reports
 - MVP: Minimum viable product
 - MCU: Microcontroller unit
 - NMBU: Norwegian University of Life Sciences (Norges Miljø- og Biovitenskapelige Universitet)
-- PLM: Product Lifecycle Management
+- PLM: Product lifecycle management
 
 ## Background
 
@@ -419,9 +419,9 @@ MLAdy is currently in the process of recruiting two more developers and a person
 
 ![Plan](images/plan.png)
 
-At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done. See [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing and [next-steps](#next-steps) for further development.
+At the time of writing, the feasibility study is completed, while the proof of concept is approximately halfway done. See [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing and [next-steps](#next-steps) for further development.
 
-Project kick-off (not including feasibility) is 1. January 2021
+Project kick-off (not including feasibility) was 1. January 2021.
 
 ![Gant](images/gantt.png)
 
@@ -454,6 +454,11 @@ At the time of writing, feasibility study is completed, while the proof of conce
 
 
 ### Position in value chain
+
+MLAdy positions itself between existing vehicle manufacturers and industrial actors, modifying the vehicles to create value by removing the need for human interaction with heavy machinery and physical labor with associated health risks.
+
+![Value chain]()
+
 
 
 ### Business model
@@ -745,7 +750,7 @@ By limiting vision sensors to camera only, calibration is streamlined and instal
 
 ## Method - Proof of Concept (Phase 2)
 
-The proof of concept consists of RC car agent detecting and driving to trash. The environment is a surface with one piece of trash visible to the agent. Training and inference is first simulated on a computer, before it is transferred to the real world. 
+The proof of concept consists of a RC car agent detecting and driving to trash. The environment is a surface with one piece of trash visible to the agent. Training and inference is first simulated on a computer, before it is transferred to the real world. 
 
 ![vision](images/simulation.jpg)
 <p align="center">
