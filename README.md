@@ -2,13 +2,11 @@
 
 ![circle](images/circle.png)
 
-Robotics and AI offers radical improvements in productivity, expenditure and safety, but the market is slow to adopt new technology. Initial investments for early adopters are expensive and high-risk. 
+Robotics and AI offers radical improvements in productivity and safety, but the market is slow to adopt new technology. Initial investments for early adopters are expensive and high-risk. 
 
-MLAdy offers a budget-oriented way to rapidly autonomize existing vehicles and machinery in public and industrial applications, using a simulation and retrofitting approach with scalable complexity, scope and size.
+Bridging the gap between legacy hardware and modern robotics, MLAdy offers a budget-friendly way to autonomize existing vehicles, using simulation and retrofitting with scalable size, scope and complexity. 
 
-Early simulations of autonomous vehicles have been successful, major computer vision obstacles have been overcome and real world hardware is soon to be tested.
-
-A market ready implementation is projected to be done by the end of 2021 Q4.
+Early simulations have been successful and real world hardware is soon to be tested. A commercial implementation is projected to be completed by the end of 2021 Q4.
 
 ## TODO <!-- omit in toc -->
 
@@ -194,7 +192,7 @@ Retrofit kits for defined zone transit.
 
 ![Confused Robot](images/confused-robot.png)
 
-MLAdy's scalable and retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as being more generally applicable. Deployment will be faster than other methods, as retrofitting tried-and-true vehicles and machinery already in use bypasses a large amount of development done by competition.
+MLAdy's scalable retrofitting approach makes robotics more accessible and lowers the risk of initial investments, as well as being more generally applicable. Deployment will be faster than other methods, as retrofitting tried-and-true vehicles and machinery already in use bypasses a large amount of development done by competition.
 
 ![Tools for the Job](images/tools-for-the-job.png)
 
