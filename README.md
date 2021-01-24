@@ -21,6 +21,8 @@ Temporary section overviewing what remains to be done.
   - [ ] Commercial mentors (at least one)
     - [ ] Eirik Størdal (awaiting response)
     - [x] Henrik Presten
+- [ ] Market
+  - [ ] Numbers, concrete examples and stuff
 - [ ] Realization strategy
   - [ ] Position in value chain
   - [ ] Business model
@@ -32,7 +34,6 @@ Temporary section overviewing what remains to be done.
     - [ ] Resources
     - [ ] Cost structure
     - [ ] Revenue streams
-- [x] Rights and licenses
 
 [STUD-ENT application criteria](https://www.forskningsradet.no/utlysninger/2021/studententreprenorskap/)
 
@@ -59,12 +60,13 @@ See `examples/` for example reports
 - [Realization Strategy](#realization-strategy)
   - [Position in value chain](#position-in-value-chain)
   - [Business model](#business-model)
-    - [Partners](#partners)
     - [Activities](#activities)
-    - [Value propositions](#value-propositions)
-    - [Customer relationships](#customer-relationships)
-    - [Custom segments](#custom-segments)
     - [Resources](#resources)
+    - [Network](#network)
+    - [Value propositions](#value-propositions)
+    - [Customer segments](#customer-segments)
+    - [Channels](#channels)
+    - [Customer relationships](#customer-relationships)
     - [Cost structure](#cost-structure)
     - [Revenue streams](#revenue-streams)
 - [Theory and Key Concepts](#theory-and-key-concepts)
@@ -105,7 +107,7 @@ The idea for MLAdy was born out of a discussion regarding automation of existing
 
 ![Idea](images/idea.png)
 
-Lacking in available technology and competence, the project was put on hold, and the members went on to develop other technologies. Recent advancements in reinforcement learning and computer vision, and radical development in the teams competence, now enables the creation of a generalized framework for quick robotics and AI prototyping. With a base of well-thought-out principles for scalability, MLAdy aims to facilitate the use robotics in a wide variety of areas.
+Lacking in available technology and competence, the project was put on hold, and the members went on to develop other technologies. Recent advancements in reinforcement learning and computer vision, and radical development in the team's skills, now enables the creation of a generalized framework for quick robotics and AI prototyping. With a base of well-thought-out principles for scalability, MLAdy aims to facilitate the use robotics in a wide variety of areas.
 
 ![Expensive Development Equation](images/dev-equation-competition.png)
 ![Expensive Development](images/expensive.png)
@@ -214,7 +216,7 @@ MLAdy hopes to reduce the difficulty of implementation to a level where it can h
 
 ### Challenges
 
-**Cheaper robotics:** As robotics and AI develop, mass production of robots will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
+**Cheaper robotics:** As robotics and AI develop, mass production will reduce MLAdy's advantage. Thus, a guiding factor for all decisions should be maintaining the ability for speedy pivots. The framework proposed allows for alternative use by design, and will prepare MLAdy to do more custom solutions, consulting or software for other players in robotics, should the competitive advantage of retrofitting fade.
 
 ![Pivots](images/pivots.png)
 ![Mass Produced Robots](images/pricedrop.png)
@@ -396,7 +398,7 @@ MLAdy is currently in the process of recruiting two more developers and a person
   </tr>
   <tr>
     <td>Office space</td>
-    <td>The core team has free access to work at Eik Lab's workshop at NMBU</td>
+    <td>The core team has access to work at Eik Lab's workshop at NMBU</td>
   </tr>
   <tr>
     <td>Hardware</td>
@@ -469,39 +471,83 @@ MLAdy positions itself between existing vehicle manufacturers and industrial act
 
 ![Value chain]()
 
+A position contingent on final goods may typically be categorized as unstable or weak, as it is entirely dependent on all previous points in the value chain. However, MLAdy's applicable scope is spread across multiple industries, allowing for pivoting without sacrificing prior investments.
 
+As the gap between use of legacy vehicles and modern robotics closes, MLAdy could stay in the same position in the value chain and find a niche, extend backwards in the chain or offer consulting to other actors.
 
 ### Business model
 
-
-
-#### Partners
-
-
-
 #### Activities
 
-
-
-#### Value propositions
-
-
-
-#### Customer relationships
-
-
-
-#### Custom segments
-
-
+- Research and development
+- Installation
+- Fleet orchestration
+- Consultation
 
 #### Resources
 
+- Primary
+  - Human
+    - AI expertise
+    - Robotics expertise
+- Secondary
+  - General electronic components
+  - Microcontrollers
+  - Development tools
+  - Computing power for training
 
+#### Network
+
+Partners
+
+- NMBU
+  - Knowledge
+  - Students
+  - Course material
+  - Eik Lab
+    - Facilities
+    - Foundation for robotics
+    - Recruitment
+    - Projects
+    - Computing
+- Trelleborg Offshore Norway
+  - Pilot project
+  - Potential customer long term
+
+No key supplier partners as of yet, as all resources needed are readily available without contracts.
+
+NVIDIA and Unity may be potential partners in the long run, to get access to exclusive features, bulk discounts or early access.
+
+If computing needs for training grow beyond the abilities of available hardware, a cloud computing supplier will be considered.
+
+For commercial application, contact with original vehicle manufacturers may make retrofitting easier, as well as establishing a network needed when pivoting.
+
+#### Value propositions
+
+- Lower health risks
+- Increase productivity
+- Facilitate transition to autonomous robotics
+- Re-use legacy hardware, PLM
+
+#### Customer segments
+
+MLAdy aims for diversified customer base. As available resources currently allow for only one type of implementation, logistics in industrial production will be first. 
+
+A diverse approach will force development to consider a wider selection of use-cases, than a specific niche. A broader scope will compliment the general solution MLAdy proposes.
+
+#### Channels
+
+Installation must be done directly on vehicles, meaning the service requires engineers or installation personnel to be at the clients premises. Alternatively, vehicles can be dropped of at a place where installation and testing can happen.
+
+The initial channel for acquiring partners will be direct contact, using the teams network. MLAdy is scouting for a marketing- and salesperson able to revise this, to better scale when the service is market ready.
+
+#### Customer relationships
+
+Installation will happen in close contact with the client, while maintenance and fixes in large part will be automated or executed remotely.
 
 #### Cost structure
 
-
+MLAdy's cost structure is primarily cost driven. Prioritizing scalability and generalization over cheaper quick-fixes to build a competitive advantage.
 
 #### Revenue streams
 
@@ -1053,4 +1099,4 @@ Microsoft allows commercial use of Visual Studio Code, according to their [licen
 [AdaBins GNU GPLv3-license](https://github.com/shariqfarooq123/AdaBins/blob/main/LICENSE)
 
 **GitHub** (Free)  
-GitHub offers a sufficient [free tier](https://github.com/pricing) for teams and organizations
+GitHub offers a generous [free tier](https://github.com/pricing) for teams and organizations
