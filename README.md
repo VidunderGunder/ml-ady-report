@@ -968,9 +968,7 @@ Budgets for remaining phases should be decided when seeking further funding, as 
 
 ## Rights and Licenses
 
-MLAdy's worth will primarily be based in a developed framework. Components of competitive value should be closed source, to give MLAdy an edge over competition.
-
-
+MLAdy's worth will primarily originate from the proposed framework. Components of competitive value should be closed source, to give MLAdy an edge over competition. Development requires a suite of tools and associated licenses, and must abide by current privacy laws, regulations and guidelines.
 
 ### Intelligent property
 
@@ -1030,6 +1028,9 @@ The team is currently using personal student licenses, but these must swapped ou
 
 So far, the abstraction approach is working well within Unity, and precise modelling using CAD software such as Fusion 360 has not yet been needed.
 
+**Blender** (Free)  
+[GNU GPLv3-license](https://www.blender.org/about/license/).
+
 **Visual Studio** (Free/Paid)  
 Microsoft allows commercial use of Visual Studio for individuals, but organizations require a paid subscription, according to their [license](https://visualstudio.microsoft.com/license-terms/mlt553321/).
 
@@ -1037,9 +1038,6 @@ Some team members use Visual Studio intermittently, but the software is being ph
 
 **VSCode or Visual Studio Code** (Free)  
 Microsoft allows commercial use of Visual Studio Code, according to their [license](https://code.visualstudio.com/license).
-
-**Blender** (Free)  
-[GNU GPLv3-license](https://www.blender.org/about/license/).
 
 **PyTorch** (Free)  
 [PyTorch BSD-license](https://github.com/pytorch/pytorch/blob/master/LICENSE)
