@@ -531,7 +531,7 @@ For commercial application, contact with original vehicle manufacturers may make
 
 #### Customer segments
 
-MLAdy aims for diversified customer base. As available resources limits the team to one type of implementation, logistics in industrial production will be handled  first. 
+MLAdy aims for a diversified customer base. As available resources limits the team to one type of implementation, logistics in industrial production will be handled  first. 
 
 A diverse approach will force development to consider a wider selection of use-cases, than limiting the solution to a specific niche. A broader scope is synergic with the general solution MLAdy proposes.
 
@@ -649,6 +649,12 @@ Software made for real-time simulation. May be interchanged with the term "game 
 **Simulation**
 
 Scoped recreation or imitation of the real world. In this case, digitally on a computer. May be used to prepare for real world scenarios or gain insight.
+
+**Simulation-to-reality gap**
+
+Difference between simulation and reality.
+
+See Google's article, [Closing the Simulation-to-Reality Gap for Deep Robotic Learning](https://ai.googleblog.com/2017/10/closing-simulation-to-reality-gap-for.html) (2017) for deeper insight.
 
 **Up-to-date papers and code**
 
