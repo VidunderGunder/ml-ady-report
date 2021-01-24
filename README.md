@@ -84,6 +84,9 @@ See `examples/` for example reports
     - [Checklist](#checklist)
     - [Budget (Phase 3)](#budget-phase-3)
     - [Budget (Phase 4-7)](#budget-phase-4-7)
+- [Rights and Licenses](#rights-and-licenses)
+  - [Intelligent property](#intelligent-property)
+  - [Key licenses currently in use](#key-licenses-currently-in-use)
 
 ## Abbreviations
 
@@ -94,6 +97,7 @@ See `examples/` for example reports
 - MCU: Microcontroller unit
 - NMBU: Norwegian University of Life Sciences (Norges Miljø- og Biovitenskapelige Universitet)
 - PLM: Product lifecycle management
+- CAD: Computer-aided design
 
 ## Background
 
@@ -943,4 +947,64 @@ The following must be bought:
 
 #### Budget (Phase 4-7)
 
-Budgets for remaining phases will be decided when seeking further funding, as needs are uncertain before phase 3 nears completion.
+Budgets for remaining phases should be decided when seeking further funding, as needs are uncertain before phase 3 nears completion.
+
+## Rights and Licenses
+
+
+
+### Intelligent property
+
+
+
+### Key licenses currently in use
+
+Licenses that allow for free commercial use are marked with `(Free)`, and similarly the ones requiring payment are marked with `(Paid)`. 
+
+**Unity** (Paid)  
+[Unity licenses](https://store.unity.com/compare-plans) are based on revenue and funding.
+
+The team is currently using personal student licenses, but these must be scaled as the project grows.
+
+- Personal  
+_Eligible if revenue or funding is less than $100K in the last 12 months_
+- Plus  
+_Eligible if revenue or funding is less than $200K in the last 12 months_
+- Pro  
+_If revenue or funding is greater than $200K in the last 12 months, you are required to use Pro or Enterprise_
+- Enterprise  
+_Minimum 10 seats_
+_If revenue or funding is greater than $200K in the last 12 months, you are required to use Pro or Enterprise_
+
+**Fusion 360** (Paid)  
+[Fusion 360 plans](https://www.autodesk.com/products/fusion-360/pricing) include free personal tiers and paid tiers for commercial use.
+
+The team is currently using personal student licenses, but these must swapped out to use designs commercially.
+
+So far, the abstraction approach is working well within Unity, and precise modelling using CAD software such as Fusion 360 has not yet been needed.
+
+**Visual Studio** (Free/Paid)  
+Microsoft allows commercial use of Visual Studio for individuals, but organizations require a paid subscription, according to their [license](https://visualstudio.microsoft.com/license-terms/mlt553321/).
+
+Some members use Visual Studio intermittently, but the software is being phased out and replaced by Visual Studio Code.
+
+**VSCode or Visual Studio Code** (Free)  
+Microsoft allows commercial use of Visual Studio Code, according to their [license](https://code.visualstudio.com/license).
+
+**Blender** (Free)  
+[GNU GPLv3-license](https://www.blender.org/about/license/).
+
+**PyTorch** (Free)  
+[PyTorch BSD-license](https://github.com/pytorch/pytorch/blob/master/LICENSE)
+
+**TensorFlow** (Free)  
+[TensorFlow Apache 2.0-license](https://github.com/tensorflow/tensorflow/blob/master/LICENSE)
+
+**YOLOv5** (Free)  
+[YOLOv5 GNU GPLv3-license](https://github.com/ultralytics/yolov5/blob/master/LICENSE) 
+
+**TACO** (Free)  
+[TACO MIT-license](https://github.com/pedropro/TACO/blob/master/LICENSE)
+
+**AdaBins** (Free)  
+[AdaBins GNU GPLv3-license](https://github.com/shariqfarooq123/AdaBins/blob/main/LICENSE)
