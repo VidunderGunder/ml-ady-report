@@ -58,6 +58,17 @@ See `examples/` for example reports
   - [University Contributions](#university-contributions)
   - [Commercial Partners](#commercial-partners)
   - [Major Milestones](#major-milestones)
+- [Realization Strategy](#realization-strategy)
+  - [Position in value chain](#position-in-value-chain)
+  - [Business model](#business-model)
+    - [Partners](#partners)
+    - [Activities](#activities)
+    - [Value propositions](#value-propositions)
+    - [Customer relationships](#customer-relationships)
+    - [Custom segments](#custom-segments)
+    - [Resources](#resources)
+    - [Cost structure](#cost-structure)
+    - [Revenue streams](#revenue-streams)
 - [Theory and Key Concepts](#theory-and-key-concepts)
 - [Technical Review](#technical-review)
   - [Simulation tools](#simulation-tools)
@@ -87,6 +98,8 @@ See `examples/` for example reports
 ## Background
 
 The idea for MLAdy was born out of a discussion regarding automation of existing vehicles at a factory where part of the core team does software development.
+
+![Idea](images/idea.png)
 
 Lacking in available technology and competence, the project was put on hold, but recent advancements in reinforcement learning and computer vision has made the challenge surmountable for a small engineering team. These new-found tools and methods enables the creation of a generalized framework for quick robotics and AI prototyping, enabling implementation in a wide variety of areas.
 
@@ -125,7 +138,11 @@ MLAdy's long-term vision is to be an AI- and robotics foundation intended for mu
 
 Operations utilizing vehicles, machinery and physical labor are resource-intensive and present serious health risks.
 
+![Negatives](images/negatives.png)
+
 MLAdy offers a highly generalized and scalable way to apply reinforcement learning to existing hardware, offloading direct operation of heavy machinery and physical tasks without the need for hardware replacement.
+
+![Lineup](images/lineup.png)
 
 ## Market
 
@@ -185,7 +202,7 @@ The closest available alternatives to MLAdy's proposed framework may be [ROS](ht
 
 MLAdy might offer parts of its resources to the community, like most technology corporations do (e.g. Facebook's [PyTorch](https://pytorch.org/), [React](https://reactjs.org/) and [PyRobot](https://pyrobot.org/), Tesla's [batteries](https://www.tesla.com/blog/all-our-patent-are-belong-you) and Google's [TensorFlow](https://www.tensorflow.org/) and [gRPC](https://opensource.google/projects/grpc)) as feedback from the open source community can improve the framework. This decision will be guided by a decision analysis, to make sure the move will strengthen MLAdy's competitive advantage
 
-Active participation by students at NMBU will be a priority given that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
+Active participation by students at NMBU will be a priority when and if that the first stages (see [checklist](#checklist) and [next-steps](#next-steps)) is a success. Students will gain real life experience in an accessible way, while helping MLAdy push innovation.
 
 MLAdy hopes to reduce the difficulty of implementation to a level where it can hire students to apply the framework in pilot projects. If successful, the collaboration can be turned to a paid service. That way, MLAdy can offer high-skilled jobs to students and substantial tech-based economic growth for local companies with low risk.
 
@@ -398,7 +415,11 @@ MLAdy is currently in the process of recruiting two more developers and a person
 
 ### Major Milestones
 
-Project start: 1. January 2021
+![Plan](images/plan.png)
+
+At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done. See [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing and [next-steps](#next-steps) for further development.
+
+Project kick-off (not including feasibility) is 1. January 2021
 
 ![Gant](images/gantt.png)
 
@@ -406,7 +427,7 @@ The proof of concept must be a success for MLAdy to continue development.
 
 ![Gant PoC](images/gantt-poc.png)
 
-Based on stated goal and objectives, the proof of concept is divided into two phases (see [next-steps](#next-steps) for further development and phases).
+Based on stated goals and objectives, the proof of concept is divided into two phases (see [next-steps](#next-steps) for further development and phases).
 
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used for proof of concept.
 
@@ -424,9 +445,52 @@ Goal: Prove that real world application can be achieved with abstracted simulate
    - [ ] Simulation
    - [ ] Transfer to reality and successfully detect and drive to target
 
-At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done (see [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing).
+At the time of writing, feasibility study is completed, while the proof of concept is approximately halfway done. See [method](#method---proof-of-concept-phase-2) for detailed steps and progress at the time of writing and [next-steps](#next-steps) for further development.
 
-See [next-steps](#next-steps) for further development.
+## Realization Strategy
+
+Upon completion of the proposed timeline, MLAdy is ready to pursue clientele outside the initial pilot customer. For the initiative to be sustainable, the venture should have a healthy stream of revenue when the funding period nears completion.
+
+### Position in value chain
+
+
+### Business model
+
+
+
+#### Partners
+
+
+
+#### Activities
+
+
+
+#### Value propositions
+
+
+
+#### Customer relationships
+
+
+
+#### Custom segments
+
+
+
+#### Resources
+
+
+
+#### Cost structure
+
+
+
+#### Revenue streams
+
+
+
+
 
 ## Theory and Key Concepts
 
@@ -770,7 +834,7 @@ Immediately, the proof of concept should be finalized and documented. If it the 
 
 ![Gant Next-steps](images/gantt-next-steps.png)
 
-Development, experimentation and evaluation will be done for each prototype step (3-6), to promote pivoting as necessary. The most critical experiment will be an implementation with an industrial partner.
+Development, experimentation and evaluation will be done for each prototype step (3-6), to promote pivoting as necessary. The most critical experiment will be an implementation with an industrial partner (phase 6).
 
 For safety, ease-of-development and budget-friendliness, RC-scale vehicles will be used up until phase 5.
 
@@ -786,7 +850,7 @@ Goal: Scale to multiple vehicles, achieve autonomous cooperation with minimal in
 2021 Q4  
 Goal: Scale to true size vehicles for applications not in public areas, e.g. factories and warehouses
 
-6. Implementation project  
+6. Implement with commercial partner  
 2022 Q1-Q2  
 Goal: Successfully apply framework in a useful real life application
 
