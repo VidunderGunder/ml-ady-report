@@ -486,60 +486,42 @@ As the gap between use of legacy vehicles and modern robotics closes, MLAdy coul
 
 #### Resources
 
-- Primary
-  - Human
-    - AI expertise
-    - Robotics expertise
-- Secondary
-  - General electronic components
-  - Microcontrollers
-  - Development tools
-  - Computing power for training
+Key resources are human capital, in the form of developer expertise - more specifically in the field of AI and robotics.
+
+Secondary resources are needed to convert the skills into an actual service, like general electronic components, microcontroller units, development- and installation tools, and computation for training models.
+
+See [team](#team) for a more detailed overview.
 
 #### Network
 
-Partners
+See [team](#team), [mentors](#mentors), [university contributions](#university-contributions) and [commercial partners](#commercial-partners) for current network and what each connection's contribution is.
 
-- NMBU
-  - Knowledge
-  - Students
-  - Course material
-  - Eik Lab
-    - Facilities
-    - Foundation for robotics
-    - Recruitment
-    - Projects
-    - Computing
-- Trelleborg Offshore Norway
-  - Pilot project
-  - Potential customer long term
-
-No key supplier partners as of yet, as all resources needed are readily available without contracts.
+MLAdy has no key supplier partners as of yet, as all resources needed are readily available without contracts.
 
 NVIDIA and Unity may be potential partners in the long run, to get access to exclusive features, bulk discounts or early access.
 
 If computing needs for training grow beyond the abilities of available hardware, a cloud computing supplier will be considered.
 
-For commercial application, contact with original vehicle manufacturers may make retrofitting easier, as well as establishing a network needed when pivoting.
+For commercial application, contact with original vehicle manufacturers may make retrofitting easier, as well as establishing a network for when pivoting becomes relevant.
 
 #### Value propositions
 
-- Lower health risks
+- Reduce health risks
 - Increase productivity
 - Facilitate transition to autonomous robotics
 - Re-use legacy hardware, PLM
 
 #### Customer segments
 
-MLAdy aims for a diversified customer base. As available resources limits the team to one type of implementation, logistics in industrial production will be handled  first. 
+MLAdy aims for a diversified customer base. Available resources limits the team to one type of implementation to begin with, and as Trelleborg Offshore Norway (the commercial partner) is interested in storage and logistics, that will be the area to handle first. 
 
-A diverse approach will force development to consider a wider selection of use-cases, than limiting the solution to a specific niche. A broader scope is synergic with the general solution MLAdy proposes.
+A diverse approach will force development to consider a wider selection of use-cases, rather than limiting the solution to a specific niche. A broader scope is synergic with the generalized solution MLAdy proposes.
 
 #### Channels
 
-Installation must be done directly on vehicles, meaning the service requires engineers or installation personnel to be at the clients premises. Alternatively, vehicles can be dropped of at a place where installation and testing can happen.
-
 The initial channel for acquiring partners will be direct contact, using the teams network. MLAdy is scouting for a marketing- and salesperson able to revise this, to better scale when the service is market ready.
+
+Installation must be done directly on vehicles, meaning the service requires engineers or installation personnel to be at the clients premises. Alternatively, vehicles can be dropped of at a place where installation and testing can happen.
 
 #### Customer relationships
 
@@ -547,7 +529,7 @@ Installation will happen in close contact with the client, while maintenance and
 
 #### Cost structure
 
-MLAdy's cost structure is primarily cost driven. Prioritizing scalability and generalization over immediately  quick-fixes to build a competitive advantage.
+MLAdy's cost structure is primarily cost driven. Solid system architecture is prioritized, by investing time in scalability and synergic solutions over convenient quick-fixes.
 
 #### Revenue streams
 
@@ -904,7 +886,7 @@ All components needed can be found at Eik Lab's workshop and borrowed elsewhere.
 
 ## Conclusion and Recommendations
 
-So far, early testing and development has been a success. An end-to-end pipeline proving the assumptions generalized abstracted simulation is almost complete,  with some real world tests left to be done.
+So far, early testing and development has been a success. An end-to-end pipeline for simulation-to-reality is almost complete,  with some real world tests left to be done.
 
 ### Next steps
 
