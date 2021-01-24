@@ -1040,7 +1040,7 @@ Currently, all code and resources are hosted on GitHub, with read-access to ever
 ### Privacy
 
 By using an abstract perception of the world with the mental model to train agents, all personal information can be filtered out. This enables the algorithms to respect [principles proposed by the GDPR](https://gdpr.eu/article-5-how-to-process-personal-data/), removing any sensitive information. 
-That way, all data relevant to training can be stored for later use, without giving up performance.
+That way, all data relevant to training can be stored for later use, without sacrificing performance.
 
 Any models needed for human detection, or other possibly sensitive operations, will be based on available anonymous data or pre-training.
 
