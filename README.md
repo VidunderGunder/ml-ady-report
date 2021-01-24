@@ -2,6 +2,8 @@
 
 ![circle](images/circle.png)
 
+## Executive Summary
+
 Robotics and AI offers radical improvements in productivity and safety, but the market is slow to adopt new technology. Initial investments for early adopters are expensive and high-risk. 
 
 Bridging the gap between legacy hardware and modern robotics, MLAdy offers a budget-friendly way to autonomize existing vehicles, using simulation and retrofitting with scalable size, scope and complexity. 
@@ -18,9 +20,6 @@ Temporary section overviewing what remains to be done.
     - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic) (awaiting response)
     - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland) (awaiting response)
     - [x] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
-  - [x] Commercial mentors (at least one)
-    - [X] Eirik Størdal
-    - [x] Henrik Presten
 - [ ] Market
   - [ ] Numbers, concrete examples and stuff
 - [ ] Realization strategy
@@ -41,6 +40,7 @@ See `examples/` for example reports
 
 ## Table of Contents <!-- omit in toc -->
 
+- [Executive Summary](#executive-summary)
 - [Abbreviations](#abbreviations)
 - [Background](#background)
 - [Problem Statement](#problem-statement)
@@ -488,9 +488,10 @@ As the gap between use of legacy vehicles and modern robotics closes, MLAdy coul
 
 Key resources are human capital, in the form of developer expertise - more specifically in the field of AI and robotics.
 
-Secondary resources are needed to convert the skills into an actual service, like general electronic components, microcontroller units, development- and installation tools, and computation for training models.
+See [team](#team) for a detailed overview of contributors.
 
-See [team](#team) for a more detailed overview.
+Secondary resources are needed to convert the skills into an actual service, like general electronic components, microcontroller units, development- and installation tools, computation for training models and so on.
+
 
 #### Network
 
