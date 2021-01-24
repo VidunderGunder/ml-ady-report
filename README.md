@@ -449,7 +449,7 @@ At the time of writing, feasibility study is completed, while the proof of conce
 
 ## Realization Strategy
 
-Upon completion of the proposed timeline, MLAdy is ready to pursue clientele outside the initial pilot customer. For the initiative to be sustainable, the venture should have a healthy stream of revenue when the funding period nears completion.
+
 
 ### Position in value chain
 
