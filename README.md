@@ -10,34 +10,6 @@ Bridging the gap between legacy hardware and modern robotics, MLAdy offers a bud
 
 Early simulations have been successful and real world hardware is soon to be tested. A commercial implementation is projected to be completed by the end of Q4 2021.
 
-## TODO <!-- omit in toc -->
-
-Temporary section overviewing what remains to be done.
-
-- [ ] Mentors
-  - [ ] Academic mentors (at least one)
-    - [x] [Simen Hesleskaug](https://www.nmbu.no/ans/simen.hesleskaug)
-    - [ ] [Oliver Tomic](https://www.nmbu.no/ans/oliver.tomic) (awaiting response)
-    - [ ] [Kristian Hovde Liland](https://www.nmbu.no/ans/kristian.liland) (awaiting response)
-    - [x] [Kristian Omberg](https://www.nmbu.no/ans/kristian.omberg)
-- [ ] Market
-  - [ ] Numbers, concrete examples and stuff
-- [ ] Realization strategy
-  - [ ] Position in value chain
-  - [ ] Business model
-    - [ ] Partners
-    - [ ] Activities
-    - [ ] Value propositions
-    - [ ] Customer relationships
-    - [ ] Custom segments
-    - [ ] Resources
-    - [ ] Cost structure
-    - [ ] Revenue streams
-
-[STUD-ENT application criteria](https://www.forskningsradet.no/utlysninger/2021/studententreprenorskap/)
-
-See `examples/` for example reports
-
 ## Table of Contents <!-- omit in toc -->
 
 - [Executive Summary](#executive-summary)
