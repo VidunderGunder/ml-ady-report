@@ -8,7 +8,7 @@ Robotics and AI offers radical improvements in productivity and safety, but the 
 
 Bridging the gap between legacy hardware and modern robotics, MLAdy offers a budget-friendly way to autonomize existing vehicles, using simulation and retrofitting with scalable size, scope and complexity. 
 
-Early simulations have been successful and real world hardware is soon to be tested. A commercial implementation is projected to be completed by the end of Q4 2021.
+Early simulations have been successful and real world hardware is soon to be tested. A commercial implementation is projected to be complete by the end of Q4 2021.
 
 ## Table of Contents <!-- omit in toc -->
 
