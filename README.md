@@ -153,6 +153,54 @@ MLAdy offers a highly generalized and scalable way to apply reinforcement learni
 
 ## Market
 
+Both the AI and robotics market are in rapid growth, and the technologies are being used in most if not all industries in one form or another; [cars can self-drive](https://www.tesla.com/autopilot), [trading is done with bots using neural networks](https://github.com/microsoft/qlib) and manufacturing is automated ([even with custom designs](https://blog.robotiq.com/7-things-you-need-to-know-about-mass-customization-with-robots)).
+
+Global valuations of AI and robotics:
+
+- Artificial intelligence  
+[USD 39.9 billion in 2019  
+USD 733.7 billion in 2027](
+  https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-market
+)
+- Robotics  
+[USD 76.6 billion in 2020  
+USD 176.8 by 2025](
+  https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-market
+)
+- Self‑driving cars and trucks  
+[Expected compound annual growth rate (CAGR) of 63.1% from 2021 to 2030](
+  https://www.grandviewresearch.com/industry-analysis/driverless-cars-market
+)
+
+Global valuations of some applicable industries:
+
+- Construction   
+[USD 12744.4 billion in 2019  
+USD 15482.0 billion in 2023](
+  https://www.thebusinessresearchcompany.com/report/construction-market
+)
+- Oil and gas  
+[USD 3.3 trillion in 2019](
+  https://www.investopedia.com/ask/answers/030915/what-percentage-global-economy-comprised-oil-gas-drilling-sector.asp
+)
+- Renewable energy  
+[USD 928.0 billion in 2017  
+USD 1512.3 billion by 2025](
+  https://www.alliedmarketresearch.com/renewable-energy-market#:~:text=The%20global%20renewable%20energy%20market,6.1%25%20from%202018%20to%202025.
+)
+- Contract cleaning services  
+[USD 292.6 billion in 2019  
+USD 468.2 billion in 2027](
+  https://www.grandviewresearch.com/industry-analysis/contract-cleaning-services-market
+)
+- Material handling equipment telematics (storage and logistics)  
+[USD 4274.1 million in 2020  
+USD 7572.2million in 2025](
+  https://www.grandviewresearch.com/industry-analysis/material-handling-equipment-telematics-market
+) 
+
+
+
 ### Competition and similar offerings
 
 There are multiple big actors working on robotics:
@@ -283,7 +331,6 @@ In order to develop such a framework, the following objectives and activities mu
   - Possible improvements
   - Feasible operations to automate
   - Potential clients to pursue
-
 
 ## Limitations
 
@@ -547,7 +594,11 @@ MLAdy's cost structure is primarily cost driven. Solid system architecture is pr
 
 #### Revenue streams
 
-Revenue will consist of initial payment of implementation, followed by a period based upkeep subscription. Consultation, upgrades and maintenance are done on demand.
+The plan is that revenue will consist of initial payment of implementation, followed by a period based upkeep subscription. Consultation, upgrades and maintenance are done on demand.
+
+Still, MLAdy is open for licensing technology or making a deal with vehicle manufacturers directly, if the opportunity should arise.
+
+Talks with the commercial partner during the pilot project and recruiting a market- and sales representative may introduce a better approach. 
 
 ### Pricing
 
@@ -1057,17 +1108,19 @@ Licenses that allow for free commercial use are marked with `(Free)`, and simila
 **Unity** (Paid)  
 [Unity licenses](https://store.unity.com/compare-plans) are based on revenue and funding.
 
-The team is currently using personal student licenses, but these must be scaled as the project grows.
+The team is currently using personal student licenses, but these must be scaled as the project grows or receives funding.
 
-- Personal  
-_Eligible if revenue or funding is less than $100K in the last 12 months_
-- Plus  
-_Eligible if revenue or funding is less than $200K in the last 12 months_
-- Pro  
-_If revenue or funding is greater than $200K in the last 12 months, you are required to use Pro or Enterprise_
-- Enterprise  
-_Minimum 10 seats_
-_If revenue or funding is greater than $200K in the last 12 months, you are required to use Pro or Enterprise_
+From Unity's website (January 2021):
+
+> - Personal  
+> _Eligible if revenue or funding is less than $100K in the last 12 months_
+> - Plus  
+> _Eligible if revenue or funding is less than $200K in the last 12 months_
+> - Pro  
+> _If revenue or funding is greater than $200K in the last 12 months, you are required to use Pro or Enterprise_
+> - Enterprise  
+> _Minimum 10 seats_
+> _If revenue or funding is greater than $200K in the last 12 months, you are required to use Pro or Enterprise_
 
 **Fusion 360** (Paid)  
 [Fusion 360 plans](https://www.autodesk.com/products/fusion-360/pricing) include free personal tiers and paid tiers for commercial use.
@@ -1103,4 +1156,4 @@ Microsoft allows commercial use of Visual Studio Code, according to their [licen
 [AdaBins GNU GPLv3-license](https://github.com/shariqfarooq123/AdaBins/blob/main/LICENSE)
 
 **GitHub** (Free)  
-GitHub offers a generous [free tier](https://github.com/pricing) for teams and organizations
+GitHub offers a generous [free tier](https://github.com/pricing) for teams and organizations.
