@@ -1,0 +1,11 @@
+# Temporary folders
+temp/
+cache/
+
+# Temporary files (Word)
+~$*
+*.tmp
+
+# .docx files except reference design (Word)
+*.docx
+!design.docx
