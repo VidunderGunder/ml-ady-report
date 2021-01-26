@@ -2,10 +2,13 @@
 temp/
 cache/
 
-# Temporary files (Word)
+# Temporary files
 ~$*
 *.tmp
+*.log
+*.aux
+temp.md
 
-# .docx files except reference design (Word)
+*.tex
 *.docx
 !design.docx
