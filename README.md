@@ -1,6 +1,6 @@
 # MLAdy Documentation
 
-📄 [**TIN301** - Design Report and Basis for Funding](TIN301 MLAdy.md)
+📄 [**TIN301** - Design Report and Basis for Funding]("TIN301 MLAdy.md")
 
 ## 🚀 QUICK START:
 
