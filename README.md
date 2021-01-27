@@ -4,8 +4,6 @@
 
 ## ✍ How to contribute
 
-PROTECTION TEST
-
 _Note: Guide requires Windows 10 and Chrome_
 
 ### Setup and preparation
