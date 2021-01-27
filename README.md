@@ -63,6 +63,7 @@ _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files
 - [Pandoc manual](https://pandoc.org/MANUAL.html)
 - [Pandoc examples](https://pandoc.org/demos.html)
 - [Pandoc and citations](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
+- [Pandoc tricks](https://github.com/jgm/pandoc/wiki/Pandoc-Tricks#from-markdown-to-markdown)
 - [Writing GitHub-markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Guide on GitHub markdown to scientific-paper](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
 
