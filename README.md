@@ -47,7 +47,7 @@ Export to `.docx`-format (Word) in terminal:
 pandoc TIN301.md -o TIN301.docx --citeproc --reference-doc pandoc/design.docx
 ```
 
-_[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files)_
+[More Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files)
 
 
 ## 📖 Resources
