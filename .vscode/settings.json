@@ -1,4 +1,9 @@
 {
   "markdown-preview-enhanced.usePandocParser": true,
-  "PandocCiter.DefaultBib": "pandoc/references.bib"
+  "PandocCiter.DefaultBib": "pandoc/references.bib",
+  "spellright.language": [],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext"
+  ]
 }
