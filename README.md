@@ -32,7 +32,7 @@ Install VSCode extensions:
 - [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 
 [Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg/related)  
-_Note: This is only to make the initial reference setup faster, you still have to fill in the remaining information_
+_Note: This is a good extension, but make sure you have all you need and that the information is correct_
 
 [Fork project]
 
@@ -105,7 +105,7 @@ pandoc TIN301.md -o TIN301.docx --citeproc --reference-doc pandoc/design.docx
 - [Writing GitHub-markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Guide on GitHub markdown to scientific-paper](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
 
-## 🛣 Guidelines
+## 💡 Tips
 
 - 🚫 Do not use HTML in markdown - it will disappear when exported
 - 🕵️‍♂️ Before committing, check GitHub-preview and Pandoc-export to ensure compatibility
