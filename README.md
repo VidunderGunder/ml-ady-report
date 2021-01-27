@@ -68,7 +68,7 @@ pandoc TIN301.md -o TIN301.docx --citeproc --reference-doc pandoc/design.docx
 - [Writing GitHub-markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Guide on GitHub markdown to scientific-paper](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
 
-## 🛣 Guidelines
+## 💡 Tips
 
 - 🚫 Do not use HTML in markdown - it will disappear when exported
 - 🕵️‍♂️ Before committing, check GitHub-preview and Pandoc-export to ensure compatibility
