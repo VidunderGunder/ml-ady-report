@@ -27,6 +27,7 @@ git config --global user.email "MY_NAME@example.com"
 
 Install VSCode extensions:
 
+- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 - [Pandoc Citer](https://marketplace.visualstudio.com/items?itemName=notZaki.pandocciter)
 - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
@@ -53,6 +54,8 @@ Copy the link to your forked project
 ---
 
 [Clone your forked project in VSCode](https://code.visualstudio.com/docs/editor/github#:~:text=Cloning%20a%20repository%23,you%20have%20no%20folder%20open)
+
+Restart your computer
 
 ### Edit
 
