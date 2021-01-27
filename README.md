@@ -21,7 +21,7 @@ Install VSCode extensions:
 - [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 
 [Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg/related)  
-_Note: This is only to make the initial reference setup faster, you still have to fill in the remaining information_
+_Note: This is a good extension, but make sure you have all you need and that the information is correct_
 
 [Get a feel for NMBU's expected reference-quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)
 
