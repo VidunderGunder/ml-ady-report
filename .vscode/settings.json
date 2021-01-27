@@ -1,4 +1,5 @@
 {
   "markdown-preview-enhanced.usePandocParser": true,
-  "PandocCiter.DefaultBib": "pandoc/references.bib"
+  "PandocCiter.DefaultBib": "pandoc/references.bib",
+  "markdown-preview-enhanced.liveUpdate": false
 }
