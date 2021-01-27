@@ -55,7 +55,6 @@ Copy the link to your forked project
 ### Edit
 
 [Get a feel for NMBU's expected reference-quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)  
-Don't skip ☝🤨
 
 [Edit references](pandoc/references.bib)
 
