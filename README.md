@@ -2,7 +2,7 @@
 
 📄 [**TIN301 MLAdy** (Roadmap, Design Report and Basis for Funding)](TIN301.md)
 
-## ✍ How to write
+## ✍ How to contribute
 
 _Note: Guide requires Windows 10 and Chrome_
 
