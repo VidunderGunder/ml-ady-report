@@ -62,3 +62,9 @@ _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files
 - [Pandoc and citations](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
 - [Writing GitHub-markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Guide on GitHub markdown to scientific-paper](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
+
+## 💡 Tips
+
+- Do not use HTML in markdown - it will disappear when exported
+- Before committing, check GitHub-preview and Pandoc-export to ensure compatibility
+- The reference section only exists in exports and not the original markdown document
