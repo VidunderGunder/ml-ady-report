@@ -66,12 +66,6 @@ Restart your computer
 To use references in the document type `@` followed by the reference ID.  
 _A list of suggestions should appear if project is setup correctly, otherwise copy the ID from `references.bib`._
 
----
-
-![](images/pull-request.png)  
-
----
-
 Example markdown and resulting render:
 
 | Input | Output |
