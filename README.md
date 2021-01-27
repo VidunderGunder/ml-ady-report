@@ -55,12 +55,10 @@ pandoc temp.md -o TIN301.docx --citeproc --metadata-file TIN301.yaml --reference
 _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files)_
 
 
-## 📖 Useful guides
+## 📖 Resources
 
-- [Chrome extension to quickly get BibTex-reference from websites](https://chrome.google.com/webstore/detail/bibtex-entry-from-url/mgpmgkhhbjgkpnanlmlhibjfgpdpgjec?hl=en)
 - [Pandoc manual](https://pandoc.org/MANUAL.html)
 - [Pandoc examples](https://pandoc.org/demos.html)
 - [Pandoc and citations](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-- [Automatic URL citation](https://phiresky.github.io/blog/2019/pandoc-url2cite/)
 - [Writing GitHub-markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Guide on GitHub markdown to scientific-paper](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
