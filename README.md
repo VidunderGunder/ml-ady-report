@@ -27,10 +27,13 @@ _Note: This is only to make the initial reference setup faster, you still have t
 
 ### Edit
 
-
 [Edit references](pandoc/references.bib)
 
 [Edit the report](TIN301.md)
+
+To use references in the document type `@`, 
+
+
 
 Preview with the magnifier-buttons:  
 _Left (thin): Pandoc markdown preview, slow_  
@@ -65,6 +68,7 @@ _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files
 
 ## 💡 Tips
 
-- Do not use HTML in markdown - it will disappear when exported
-- Before committing, check GitHub-preview and Pandoc-export to ensure compatibility
-- The reference section only exists in exports and not the original markdown document
+- 🚫 Do not use HTML in markdown - it will disappear when exported
+- 🕵️‍♂️ Before committing, check GitHub-preview and Pandoc-export to ensure compatibility
+- 🧾 The reference section only exists in exports and not the original markdown document
+- ❎ Remember to close documents open in other applications before modifying files

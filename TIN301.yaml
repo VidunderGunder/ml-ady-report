@@ -9,7 +9,6 @@ title: MLAdy
 subtitle: Retrofitting Autonomy
 description: Report presenting MLAdy and its retrofitted autonomy proposal.
 date: 2021-01-26
-bibliography: pandoc/references.bib
 subject: TIN301
 keywords:
   - mlady

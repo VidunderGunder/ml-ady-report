@@ -1,4 +1,4 @@
 {
   "markdown-preview-enhanced.usePandocParser": true,
-  "PandocCiter.DefaultBib": "references.bib"
+  "PandocCiter.DefaultBib": "pandoc/references.bib"
 }
