@@ -20,7 +20,7 @@ Install VSCode extensions:
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 
-[Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibtex-entry-from-url/mgpmgkhhbjgkpnanlmlhibjfgpdpgjec?hl=en)  
+[Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg/related)  
 _Note: This is only to make the initial reference setup faster, you still have to fill in the remaining information_
 
 [Get a feel for NMBU's expected reference-quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)
@@ -31,7 +31,16 @@ _Note: This is only to make the initial reference setup faster, you still have t
 
 [Edit the report](TIN301.md)
 
-To use references in the document type `@` followed by the reference ID (a list of suggestions should appear). 
+To use references in the document type `@` followed by the reference ID (a list of suggestions should appear).
+
+Example markdown and resulting render:
+
+```markdown
+Reference test (see @VidunderGunder2021Jan, @pizza2000identification and @Storaas2021Jan)
+```
+```markdown
+Reference test (see VidunderGunder (2021), Pizza et al. (2000) and Storaas (2021))
+```
 
 Preview with the magnifier-buttons:  
 _Left (thin): Pandoc markdown preview, slow - renders references correctly_  
