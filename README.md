@@ -52,7 +52,7 @@ pandoc TIN301.md -o temp.md -A pandoc/bottom.md
 Export to `.docx`-format (Word) in terminal:
 
 ```sh
-pandoc temp.md -o TIN301.docx --citeproc --metadata-file TIN301.yaml --reference-doc pandoc/design.docx
+pandoc temp.md -o TIN301.docx --citeproc --reference-doc pandoc/design.docx
 ```
 
 _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files)_
