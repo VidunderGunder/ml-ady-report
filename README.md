@@ -31,28 +31,20 @@ _Note: This is only to make the initial reference setup faster, you still have t
 
 [Edit the report](TIN301.md)
 
-To use references in the document type `@`, 
-
-
+To use references in the document type `@` followed by the reference ID (a list of suggestions should appear). 
 
 Preview with the magnifier-buttons:  
-_Left (thin): Pandoc markdown preview, slow_  
-_Right (fat): GitHub markdown preview, fast_
+_Left (thin): Pandoc markdown preview, slow - renders references correctly_  
+_Right (fat): GitHub markdown preview, fast - closest to GitHub result_
 
 ![](images/preview-buttons.png)  
 
 ### Exporting
 
-Preprocess document:  
-
-```sh
-pandoc TIN301.md -o temp.md -A pandoc/bottom.md
-```
-
 Export to `.docx`-format (Word) in terminal:
 
 ```sh
-pandoc temp.md -o TIN301.docx --citeproc --reference-doc pandoc/design.docx
+pandoc TIN301.md -o TIN301.docx --citeproc --reference-doc pandoc/design.docx
 ```
 
 _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files)_
@@ -67,7 +59,7 @@ _[Tip: Pandoc command-line options](https://pandoc.org/MANUAL.html#default-files
 - [Writing GitHub-markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Guide on GitHub markdown to scientific-paper](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
 
-## 💡 Tips
+## 🛣 Guidelines
 
 - 🚫 Do not use HTML in markdown - it will disappear when exported
 - 🕵️‍♂️ Before committing, check GitHub-preview and Pandoc-export to ensure compatibility
