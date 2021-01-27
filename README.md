@@ -8,7 +8,18 @@ _Note: Guide requires Windows 10 and Chrome_
 
 ### Setup and preparation
 
+[Install Git](https://git-scm.com/downloads)
+
 [Install VSCode](https://code.visualstudio.com/)
+
+Enter name and email in terminal:
+
+```sh
+git config --global user.name "FIRST_NAME LAST_NAME"
+```
+```sh
+git config --global user.email "MY_NAME@example.com"
+```
 
 [Install Pandoc](https://pandoc.org/installing.html)
 
@@ -23,30 +34,56 @@ Install VSCode extensions:
 [Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg/related)  
 _Note: This is only to make the initial reference setup faster, you still have to fill in the remaining information_
 
-[Get a feel for NMBU's expected reference-quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)
+[Fork project]
+
+![](images/fork.png)
+
+Copy the link to your forked project
+
+![picture 3](images/clone.png)
+
+[Clone your forked project in VSCode](https://code.visualstudio.com/docs/editor/github#:~:text=Cloning%20a%20repository%23,you%20have%20no%20folder%20open)
+
+
+
+Create new branch in terminal:  
+_Remember to change `your_branch_name` to fit what you'll do._
+
+
+<!-- git checkout -b your_branch_name -->
+```
+git remote add upstream https://github.com/VidunderGunder/ml-ady-report
+```
+
 
 ### Edit
+
+[Get a feel for NMBU's expected reference-quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)  
+Don't skip ☝🤨
 
 [Edit references](pandoc/references.bib)
 
 [Edit the report](TIN301.md)
 
-To use references in the document type `@` followed by the reference ID (a list of suggestions should appear).
+To use references in the document type `@` followed by the reference ID.  
+_A list of suggestions should appear if project is setup correctly, otherwise copy the ID from `references.bib`._
 
 Example markdown and resulting render:
 
-```markdown
-Reference test (see @VidunderGunder2021Jan, @pizza2000identification and @Storaas2021Jan)
-```
-```markdown
-Reference test (see VidunderGunder (2021), Pizza et al. (2000) and Storaas (2021))
-```
+| Input | Output |
+|---|---|
+| Reference test (see \@VidunderGunder2021Jan, \@pizza2000identification and \@Storaas2021Jan) | Reference test (see VidunderGunder (2021), Pizza et al. (2000) and Storaas (2021)) |
+
 
 Preview with the magnifier-buttons:  
 _Left (thin): Pandoc markdown preview, slow - renders references correctly_  
 _Right (fat): GitHub markdown preview, fast - closest to GitHub result_
 
 ![](images/preview-buttons.png)  
+
+### Share changes
+
+Push changes
 
 ### Exporting
 
