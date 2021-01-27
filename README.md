@@ -34,23 +34,23 @@ Install VSCode extensions:
 [Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg/related)  
 _Note: This is a good extension, but make sure you have all you need and that the information is correct_
 
-[Fork project]
+Fork project
+
+---
 
 ![](images/fork.png)
 
+---
+
 Copy the link to your forked project
 
-![picture 3](images/clone.png)
+---
+
+![](images/clone.png)
+
+---
 
 [Clone your forked project in VSCode](https://code.visualstudio.com/docs/editor/github#:~:text=Cloning%20a%20repository%23,you%20have%20no%20folder%20open)
-
-Create new branch in terminal:  
-_Remember to change `your_branch_name` to fit what you'll do._
-
-<!-- git checkout -b your_branch_name -->
-```
-git remote add upstream https://github.com/VidunderGunder/ml-ady-report
-```
 
 ### Edit
 
@@ -63,6 +63,12 @@ Don't skip ☝🤨
 
 To use references in the document type `@` followed by the reference ID.  
 _A list of suggestions should appear if project is setup correctly, otherwise copy the ID from `references.bib`._
+
+---
+
+![](images/pull-request.png)  
+
+---
 
 Example markdown and resulting render:
 
@@ -79,8 +85,17 @@ _Right (fat): GitHub markdown preview, fast - closest to GitHub result_
 
 ### Share changes
 
-Push changes
+[Push changes to GitHub](https://zeroesandones.medium.com/how-to-commit-and-push-your-changes-to-your-github-repository-in-vscode-77a7a3d7dd02)
 
+Create a pull request
+
+---
+
+![](images/pull-request.png)
+
+![](images/pull-request-2.png)
+
+---
 ### Exporting
 
 Export to `.docx`-format (Word) in terminal:
