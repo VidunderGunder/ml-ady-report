@@ -44,17 +44,13 @@ Copy the link to your forked project
 
 [Clone your forked project in VSCode](https://code.visualstudio.com/docs/editor/github#:~:text=Cloning%20a%20repository%23,you%20have%20no%20folder%20open)
 
-
-
 Create new branch in terminal:  
 _Remember to change `your_branch_name` to fit what you'll do._
-
 
 <!-- git checkout -b your_branch_name -->
 ```
 git remote add upstream https://github.com/VidunderGunder/ml-ady-report
 ```
-
 
 ### Edit
 
