@@ -23,7 +23,7 @@ Install VSCode extensions:
 [Install Chrome-extension to quickly get BibTex-references from websites](https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg/related)  
 _Note: This is a good extension, but make sure you have all you need and that the information is correct_
 
-[Get a feel for NMBU's expected reference-quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)
+[Get a feel for NMBU's expected citation quality](https://www.nmbu.no/en/about-nmbu/library/write-and-cite/styles/examples-nmbu-style)
 
 ### Edit
 
