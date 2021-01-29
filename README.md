@@ -81,9 +81,9 @@ Example markdown and resulting render:
 
 | Input | Output |
 |---|---|
-| Reference test [see \@VidunderGunder2021Jan, \@pizza2000identification and \@Storaas2021Jan] | Reference test (see VidunderGunder (2021), Pizza et al. (2000) and Storaas (2021)) |
+| Some statement is true, according to \@VidunderGunder2021Jan, \@pizza2000identification and \@Storaas2021Jan) | Some statement is true, according to VidunderGunder (2021), Pizza et al. (2000) and Storaas (2021) |
 
-_Tip: If you want references inside a parenthesis `()`, use brackets `[]` instead, like the example above._
+_Tip: If you want references a single reference inside a parenthesis `()` with no other text, use brackets `[]`, like so: `[@SomeSource]` to avoid compatibility issues._
 
 Preview with the magnifier-buttons:  
 _Blue, left: **Pandoc** (renders references correctly, slower)_  
